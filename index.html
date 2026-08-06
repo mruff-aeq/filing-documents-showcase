@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filing Documents Showcase</title>
+<style>
+  :root {
+    --bg: #f4f6f8; --panel: #ffffff; --ink: #1a1f26; --muted: #66707d;
+    --line: #dde2e8; --accent: #1a5a96; --accent-ink: #ffffff; --chip: #eef2f6;
+    --wash-workhorse: #e7f0fa; --dot-workhorse: #1a5a96;
+    --wash-liquidation: #f3ecfa; --dot-liquidation: #7a4bbf;
+    --wash-lifecycle: #e9f5ee; --dot-lifecycle: #2e7d4f;
+    --wash-destructive: #fbeeea; --dot-destructive: #b3552e;
+    --wash-amalgamation: #fdf4e3; --dot-amalgamation: #a37b1e;
+    --stamp: #8a2432; --stamp-wash: #f9e9ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171b; --panel: #1d222a; --ink: #e8ebee; --muted: #98a2ad;
+      --line: #2e353d; --accent: #5da8e8; --accent-ink: #10141a; --chip: #262d35;
+      --wash-workhorse: #1d2a38; --dot-workhorse: #5da8e8;
+      --wash-liquidation: #281f38; --dot-liquidation: #b18ae8;
+      --wash-lifecycle: #1c2e24; --dot-lifecycle: #6cc793;
+      --wash-destructive: #32211b; --dot-destructive: #e08b62;
+      --wash-amalgamation: #2f2917; --dot-amalgamation: #d9b45a;
+      --stamp: #e8798b; --stamp-wash: #38222a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--ink); }
+  header { padding: 26px 32px 4px; max-width: 1200px; margin: 0 auto; }
+  header h1 { margin: 0; font-size: 21px; }
+  header .meta { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 12px 32px 80px; }
+  .cat { margin: 22px 0 10px; font-size: 12.5px; font-weight: 600; color: var(--muted);
+         text-transform: uppercase; letter-spacing: .05em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+          gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+          padding: 14px 16px; cursor: pointer; transition: box-shadow .12s, transform .12s;
+          position: relative; overflow: hidden; }
+  .card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.10); transform: translateY(-1px); }
+  .card::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px;
+                  background: var(--dot); }
+  .card h3 { margin: 0 0 6px; font-size: 14.5px; word-break: break-word; }
+  .card .biz { font-size: 12.5px; color: var(--muted); }
+  .card .row { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  .pill { font-size: 11.5px; padding: 1px 8px; border-radius: 9px; background: var(--wash);
+          border: 1px solid var(--line); }
+  .pill.status { font-weight: 600; }
+  .pill.docs { background: var(--chip); }
+  .pill.stamp, .stampbadge { background: var(--stamp-wash); border-color: var(--stamp);
+                             color: var(--stamp); font-weight: 600; }
+  .stampbadge { display: inline-block; font-size: 11px; padding: 1px 8px;
+                border: 1px solid var(--stamp); border-radius: 9px; margin-left: 8px;
+                vertical-align: 1px; }
+  .srcbadge { display: inline-block; font-size: 11px; padding: 1px 8px; color: var(--muted);
+              border: 1px solid var(--line); border-radius: 9px; background: var(--chip);
+              margin-left: 8px; vertical-align: 1px; font-weight: normal; }
+  /* detail view */
+  .detail { display: none; }
+  body.detail-open .grid-view { display: none; }
+  body.detail-open .detail { display: block; }
+  .back { background: none; border: 1px solid var(--line); color: var(--ink);
+          border-radius: 8px; padding: 6px 14px; cursor: pointer; font: inherit;
+          margin-bottom: 18px; }
+  .back:hover { background: var(--chip); }
+  .detail h2 { margin: 0 0 16px; font-size: 20px; }
+  .fcard { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+           padding: 18px 20px; margin-bottom: 26px; }
+  .fcard h3 { margin: 0 0 2px; font-size: 16px; }
+  .badge { display: inline-block; background: var(--chip); border: 1px solid var(--line);
+           border-radius: 10px; padding: 1px 9px; font-size: 12px; margin-left: 8px;
+           vertical-align: 2px; }
+  table.info { border-collapse: collapse; margin: 10px 0 4px; font-size: 13px; }
+  table.info td { padding: 2px 18px 2px 0; }
+  table.info td:first-child { color: var(--muted); }
+  .doc { margin-top: 20px; }
+  .doc h4 { font-size: 13.5px; margin: 0 0 6px; }
+  .doc h4 a { color: var(--accent); text-decoration: none; font-weight: normal;
+              margin-left: 10px; font-size: 12.5px; }
+  .doc iframe { width: 100%; height: 74vh; border: 1px solid var(--line);
+                border-radius: 6px; background: #fff; }
+  .empty { color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Filing Documents Showcase</h1>
+  <p class="meta">e2e API suite run 2026-08-06 &middot; 25 filing steps &middot;
+     56 PDFs &middot; dev environment</p>
+</header>
+<div class="wrap">
+  <div class="grid-view" id="gridView"></div>
+  <div class="detail" id="detailView"></div>
+</div>
+<script>
+const CARDS = [{"name": "changeOfDirectors", "category": "workhorse", "filings": [{"filingId": 3732035, "type": "changeOfDirectors", "status": "COMPLETED", "displayName": "Director Change", "documents": [{"label": "legalFilings-changeOfDirectors", "path": "documents/BC3000144-3732035-changeOfDirectors/legalFilings-changeOfDirectors.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107020", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "noticeOfArticles", "path": "documents/BC3000144-3732035-changeOfDirectors/noticeOfArticles.pdf", "source": "drs", "reportType": "NOA", "drsId": "DSR0000107021", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000144-3732035-changeOfDirectors/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "changeOfOfficers", "category": "workhorse", "filings": [{"filingId": 3732036, "type": "changeOfOfficers", "status": "COMPLETED", "displayName": "Officer Change", "documents": [{"label": "receipt", "path": "documents/BC3000144-3732036-changeOfOfficers/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "alteration", "category": "workhorse", "filings": [{"filingId": 3732037, "type": "alteration", "status": "COMPLETED", "displayName": "Alteration", "documents": [{"label": "legalFilings-alteration", "path": "documents/BC3000144-3732037-alteration/legalFilings-alteration.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107022", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "noticeOfArticles", "path": "documents/BC3000144-3732037-alteration/noticeOfArticles.pdf", "source": "drs", "reportType": "NOA", "drsId": "DSR0000107024", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000144-3732037-alteration/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "agmExtension", "category": "workhorse", "filings": [{"filingId": 3732038, "type": "agmExtension", "status": "COMPLETED", "displayName": "Request for AGM Extension", "documents": [{"label": "letterOfAgmExtension", "path": "documents/BC3000144-3732038-agmExtension/letterOfAgmExtension.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": true, "bakedRegistrarSignature": true}, {"label": "receipt", "path": "documents/BC3000144-3732038-agmExtension/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "agmLocationChange", "category": "workhorse", "filings": [{"filingId": 3732039, "type": "agmLocationChange", "status": "COMPLETED", "displayName": "AGM Location Change", "documents": [{"label": "letterOfAgmLocationChange", "path": "documents/BC3000144-3732039-agmLocationChange/letterOfAgmLocationChange.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": true, "bakedRegistrarSignature": true}, {"label": "receipt", "path": "documents/BC3000144-3732039-agmLocationChange/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "courtOrder", "category": "workhorse", "filings": [{"filingId": 3732040, "type": "courtOrder", "status": "CORRECTED", "displayName": "Court Order", "documents": [{"label": "receipt", "path": "documents/BC3000144-3732040-courtOrder/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "registrarsNotation", "category": "workhorse", "filings": [{"filingId": 3732041, "type": "registrarsNotation", "status": "COMPLETED", "displayName": "Registrar's Notation", "documents": [], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "registrarsOrder", "category": "workhorse", "filings": [{"filingId": 3732042, "type": "registrarsOrder", "status": "COMPLETED", "displayName": "Registrar's Order", "documents": [], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "consentContinuationOut", "category": "workhorse", "filings": [{"filingId": 3732043, "type": "consentContinuationOut", "status": "COMPLETED", "displayName": "6-Month Consent to Continue Out", "documents": [{"label": "legalFilings-consentContinuationOut", "path": "documents/BC3000144-3732043-consentContinuationOut/legalFilings-consentContinuationOut.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107026", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "letterOfConsent", "path": "documents/BC3000144-3732043-consentContinuationOut/letterOfConsent.pdf", "source": "drs", "reportType": "FILING-3", "drsId": "DSR0000107027", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "receipt", "path": "documents/BC3000144-3732043-consentContinuationOut/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "consentAmalgamationOut", "category": "workhorse", "filings": [{"filingId": 3732044, "type": "consentAmalgamationOut", "status": "COMPLETED", "displayName": "6-Month Consent to Amalgamate Out", "documents": [{"label": "letterOfConsentAmalgamationOut", "path": "documents/BC3000144-3732044-consentAmalgamationOut/letterOfConsentAmalgamationOut.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": true, "bakedRegistrarSignature": true}, {"label": "receipt", "path": "documents/BC3000144-3732044-consentAmalgamationOut/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "changeOfAddress + withdraw", "category": "workhorse", "filings": [{"filingId": 3732045, "type": "changeOfAddress", "status": "WITHDRAWN", "displayName": "Address Change", "documents": [{"label": "legalFilings-changeOfAddress", "path": "documents/BC3000144-3732045-changeOfAddress/legalFilings-changeOfAddress.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107035", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000144-3732045-changeOfAddress/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}, {"filingId": 3732046, "type": "noticeOfWithdrawal", "status": "COMPLETED", "displayName": "Notice of Withdrawal", "documents": [{"label": "legalFilings-noticeOfWithdrawal", "path": "documents/BC3000144-3732046-noticeOfWithdrawal/legalFilings-noticeOfWithdrawal.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107029", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000144-3732046-noticeOfWithdrawal/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "adminFreeze + unfreeze", "category": "workhorse", "filings": [{"filingId": 3732047, "type": "adminFreeze", "status": "COMPLETED", "displayName": "Admin Freeze", "documents": [{"label": "receipt", "path": "documents/BC3000144-3732047-adminFreeze/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}, {"filingId": 3732048, "type": "adminFreeze", "status": "COMPLETED", "displayName": "Admin Unfreeze", "documents": [{"label": "receipt", "path": "documents/BC3000144-3732048-adminFreeze/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "annualReport", "category": "workhorse", "filings": [{"filingId": 3732049, "type": "annualReport", "status": "COMPLETED", "displayName": "Annual Report (2023)", "documents": [{"label": "legalFilings-annualReport", "path": "documents/BC0870827-3732049-annualReport/legalFilings-annualReport.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107030", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC0870827-3732049-annualReport/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC0870827", "legalName": "0870827 B.C. LTD.", "slot": "AR1", "bizState": "ACTIVE"}]}, {"name": "correction", "category": "workhorse", "filings": [{"filingId": 3732050, "type": "correction", "status": "COMPLETED", "displayName": "Register Correction Application", "documents": [{"label": "legalFilings-correction", "path": "documents/BC3000144-3732050-correction/legalFilings-correction.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107031", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000144-3732050-correction/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000144", "legalName": "3000144 B.C. LTD.", "slot": "W1", "bizState": "ACTIVE"}]}, {"name": "appointReceiver", "category": "liquidation", "filings": [{"filingId": 3732051, "type": "changeOfReceivers", "status": "COMPLETED", "displayName": "Notice of Appointment of Receiver or Receiver Manager", "documents": [{"label": "receipt", "path": "documents/BC3000143-3732051-changeOfReceivers/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000143", "legalName": "3000143 B.C. LTD.", "slot": "L1", "bizState": "ACTIVE"}]}, {"name": "intentToLiquidate", "category": "liquidation", "filings": [{"filingId": 3732052, "type": "changeOfLiquidators", "status": "COMPLETED", "displayName": "Statement of Intent to Liquidate", "documents": [{"label": "legalFilings-changeOfLiquidators", "path": "documents/BC3000143-3732052-changeOfLiquidators/legalFilings-changeOfLiquidators.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107053", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000143-3732052-changeOfLiquidators/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000143", "legalName": "3000143 B.C. LTD.", "slot": "L1", "bizState": "ACTIVE"}]}, {"name": "dissolution", "category": "lifecycle", "filings": [{"filingId": 3732053, "type": "dissolution", "status": "COMPLETED", "displayName": "Voluntary Dissolution", "documents": [{"label": "certificateOfDissolution", "path": "documents/BC3000142-3732053-dissolution/certificateOfDissolution.pdf", "source": "drs", "reportType": "CERT", "drsId": "DSR0000107033", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "legalFilings-dissolution", "path": "documents/BC3000142-3732053-dissolution/legalFilings-dissolution.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107032", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000142-3732053-dissolution/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000142", "legalName": "3000142 B.C. LTD.", "slot": "D1", "bizState": "ACTIVE"}]}, {"name": "restoration", "category": "lifecycle", "filings": [{"filingId": 3732054, "type": "restoration", "status": "COMPLETED", "displayName": "Full Restoration Application", "documents": [{"label": "certificateOfRestoration", "path": "documents/BC3000142-3732054-restoration/certificateOfRestoration.pdf", "source": "drs", "reportType": "CERT", "drsId": "DSR0000107037", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "legalFilings-restoration", "path": "documents/BC3000142-3732054-restoration/legalFilings-restoration.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107034", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "noticeOfArticles", "path": "documents/BC3000142-3732054-restoration/noticeOfArticles.pdf", "source": "drs", "reportType": "NOA", "drsId": "DSR0000107036", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000142-3732054-restoration/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000142", "legalName": "3000142 B.C. LTD.", "slot": "D1", "bizState": "ACTIVE"}]}, {"name": "putBackOff", "category": "lifecycle", "filings": [{"filingId": 3732055, "type": "putBackOff", "status": "COMPLETED", "displayName": "Correction - Put Back Off", "documents": [], "identifier": "BC3000142", "legalName": "3000142 B.C. LTD.", "slot": "D1", "bizState": "ACTIVE"}]}, {"name": "putBackOn", "category": "lifecycle", "filings": [{"filingId": 3732056, "type": "putBackOn", "status": "COMPLETED", "displayName": "Correction - Put Back On", "documents": [], "identifier": "BC3000142", "legalName": "3000142 B.C. LTD.", "slot": "D1", "bizState": "ACTIVE"}]}, {"name": "continuationOut", "category": "destructive", "filings": [{"filingId": 3732057, "type": "consentContinuationOut", "status": "COMPLETED", "displayName": "6-Month Consent to Continue Out", "documents": [{"label": "legalFilings-consentContinuationOut", "path": "documents/BC3000140-3732057-consentContinuationOut/legalFilings-consentContinuationOut.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107038", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "letterOfConsent", "path": "documents/BC3000140-3732057-consentContinuationOut/letterOfConsent.pdf", "source": "drs", "reportType": "FILING-3", "drsId": "DSR0000107039", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "receipt", "path": "documents/BC3000140-3732057-consentContinuationOut/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000140", "legalName": "3000140 B.C. LTD.", "slot": "C1", "bizState": "HISTORICAL"}, {"filingId": 3732058, "type": "continuationOut", "status": "COMPLETED", "displayName": "Continuation Out", "documents": [{"label": "receipt", "path": "documents/BC3000140-3732058-continuationOut/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000140", "legalName": "3000140 B.C. LTD.", "slot": "C1", "bizState": "HISTORICAL"}]}, {"name": "amalgamationOut", "category": "destructive", "filings": [{"filingId": 3732059, "type": "consentAmalgamationOut", "status": "COMPLETED", "displayName": "6-Month Consent to Amalgamate Out", "documents": [{"label": "letterOfConsentAmalgamationOut", "path": "documents/BC3000141-3732059-consentAmalgamationOut/letterOfConsentAmalgamationOut.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": true, "bakedRegistrarSignature": true}, {"label": "receipt", "path": "documents/BC3000141-3732059-consentAmalgamationOut/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000141", "legalName": "3000141 B.C. LTD.", "slot": "C2", "bizState": "HISTORICAL"}, {"filingId": 3732060, "type": "amalgamationOut", "status": "COMPLETED", "displayName": "Amalgamation Out", "documents": [{"label": "receipt", "path": "documents/BC3000141-3732060-amalgamationOut/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000141", "legalName": "3000141 B.C. LTD.", "slot": "C2", "bizState": "HISTORICAL"}]}, {"name": "amalgamation \u2014 regular", "category": "amalgamation", "filings": [{"filingId": 3732061, "type": "amalgamationApplication", "status": "COMPLETED", "displayName": "Amalgamation Application (Regular)", "documents": [{"label": "certificateOfAmalgamation", "path": "documents/BC3000149-3732061-amalgamationApplication/certificateOfAmalgamation.pdf", "source": "drs", "reportType": "CERT", "drsId": "DSR0000107043", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "legalFilings-amalgamationApplication", "path": "documents/BC3000149-3732061-amalgamationApplication/legalFilings-amalgamationApplication.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107041", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "noticeOfArticles", "path": "documents/BC3000149-3732061-amalgamationApplication/noticeOfArticles.pdf", "source": "drs", "reportType": "NOA", "drsId": "DSR0000107042", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000149-3732061-amalgamationApplication/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000149", "legalName": "3000149 B.C. LTD.", "slot": "R1", "bizState": "HISTORICAL"}]}, {"name": "amalgamation \u2014 vertical", "category": "amalgamation", "filings": [{"filingId": 3732062, "type": "amalgamationApplication", "status": "COMPLETED", "displayName": "Amalgamation Application Short-form (Vertical)", "documents": [{"label": "certificateOfAmalgamation", "path": "documents/BC3000150-3732062-amalgamationApplication/certificateOfAmalgamation.pdf", "source": "drs", "reportType": "CERT", "drsId": "DSR0000107046", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "legalFilings-amalgamationApplication", "path": "documents/BC3000150-3732062-amalgamationApplication/legalFilings-amalgamationApplication.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107044", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "noticeOfArticles", "path": "documents/BC3000150-3732062-amalgamationApplication/noticeOfArticles.pdf", "source": "drs", "reportType": "NOA", "drsId": "DSR0000107045", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000150-3732062-amalgamationApplication/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000150", "legalName": "3000149 B.C. LTD.", "slot": "R2", "bizState": "HISTORICAL"}]}, {"name": "amalgamation \u2014 horizontal", "category": "amalgamation", "filings": [{"filingId": 3732063, "type": "amalgamationApplication", "status": "COMPLETED", "displayName": "Amalgamation Application Short-form (Horizontal)", "documents": [{"label": "certificateOfAmalgamation", "path": "documents/BC3000151-3732063-amalgamationApplication/certificateOfAmalgamation.pdf", "source": "drs", "reportType": "CERT", "drsId": "DSR0000107049", "stampedOnDownload": false, "bakedRegistrarSignature": true}, {"label": "legalFilings-amalgamationApplication", "path": "documents/BC3000151-3732063-amalgamationApplication/legalFilings-amalgamationApplication.pdf", "source": "drs", "reportType": "FILING", "drsId": "DSR0000107047", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "noticeOfArticles", "path": "documents/BC3000151-3732063-amalgamationApplication/noticeOfArticles.pdf", "source": "drs", "reportType": "NOA", "drsId": "DSR0000107048", "stampedOnDownload": true, "bakedRegistrarSignature": false}, {"label": "receipt", "path": "documents/BC3000151-3732063-amalgamationApplication/receipt.pdf", "source": "generated", "reportType": null, "drsId": null, "stampedOnDownload": false, "bakedRegistrarSignature": false}], "identifier": "BC3000151", "legalName": "3000149 B.C. LTD.", "slot": "R3", "bizState": "ACTIVE"}]}];
+const CATEGORIES = {"workhorse": "Non-Destructive", "liquidation": "Liquidation / receivers", "lifecycle": "Dissolve / restore cycle", "destructive": "Destructive outs", "amalgamation": "Amalgamation chain"};
+
+const gridView = document.getElementById('gridView');
+const detailView = document.getElementById('detailView');
+const esc = s => String(s ?? '').replace(/[&<>"]/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function renderGrid() {
+  let html = '';
+  for (const [cat, label] of Object.entries(CATEGORIES)) {
+    const cards = CARDS.filter(c => c.category === cat);
+    if (!cards.length) continue;
+    html += `<div class="cat">${esc(label)}</div><div class="grid">`;
+    cards.forEach(c => {
+      const i = CARDS.indexOf(c);
+      const nDocs = c.filings.reduce((n, f) => n + f.documents.length, 0);
+      const nStamped = c.filings.reduce(
+        (n, f) => n + f.documents.filter(d => d.stampedOnDownload).length, 0);
+      const statuses = [...new Set(c.filings.map(f => f.status))];
+      const biz = [...new Set(c.filings.map(f => f.identifier))];
+      html += `<div class="card" style="--dot: var(--dot-${cat}); --wash: var(--wash-${cat})"
+                    onclick="openCard(${i})">
+        <h3>${esc(c.name)}</h3>
+        <div class="biz">${esc(biz.join(', ')) || 'no filing captured'}</div>
+        <div class="row">
+          ${statuses.map(s => `<span class="pill status">${esc(s)}</span>`).join('')}
+          <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
+          ${nStamped ? `<span class="pill stamp">${nStamped} stamped on download</span>` : ''}
+          ${c.filings.length > 1 ? `<span class="pill docs">${c.filings.length} filings</span>` : ''}
+        </div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+  gridView.innerHTML = html;
+}
+
+function openCard(i) {
+  const c = CARDS[i];
+  let html = `<button class="back" onclick="closeCard()">&larr; All filings</button>
+              <h2>${esc(c.name)}</h2>`;
+  if (!c.filings.length) html += `<p class="empty">No filing captured for this step.</p>`;
+  c.filings.forEach(f => {
+    html += `<div class="fcard">
+      <h3>${esc(f.displayName || f.type)}<span class="badge">${esc(f.status)}</span></h3>
+      <table class="info">
+        <tr><td>Business</td><td>${esc(f.identifier)} — ${esc(f.legalName)}
+            (${esc(f.bizState)})</td></tr>
+        <tr><td>Filing ID</td><td>${esc(f.filingId)}</td></tr>
+        <tr><td>Filing type</td><td>${esc(f.type)}</td></tr>
+        <tr><td>Suite slot</td><td>${esc(f.slot)}</td></tr>
+        <tr><td>Documents</td><td>${f.documents.length}</td></tr>
+      </table>`;
+    if (!f.documents.length)
+      html += `<p class="empty">No output documents for this filing type.</p>`;
+    f.documents.forEach(d => {
+      const src = d.source === 'drs'
+        ? `DRS &middot; ${esc(d.reportType || '?')}`
+        : (d.stampedOnDownload ? 'DRS (server-resolved)' : 'generated at download');
+      const stamp = d.stampedOnDownload
+        ? `<span class="stampbadge" title="Certified-copy stamp applied at download time (DRS certifiedCopy=true) — verified present in this PDF">&#9873; DRS stamp on download</span>`
+        : '';
+      html += `<div class="doc"><h4>${esc(d.label)}
+        <span class="srcbadge">${src}</span>${stamp}
+        <a href="${esc(d.path)}" target="_blank">open in new tab &nearr;</a></h4>
+        <iframe src="${esc(d.path)}" title="${esc(d.label)}" loading="lazy"></iframe></div>`;
+    });
+    html += `</div>`;
+  });
+  detailView.innerHTML = html;
+  document.body.classList.add('detail-open');
+  window.scrollTo(0, 0);
+  location.hash = 'card-' + i;
+}
+
+function closeCard() {
+  document.body.classList.remove('detail-open');
+  detailView.innerHTML = '';
+  history.replaceState(null, '', location.pathname);
+}
+
+window.addEventListener('hashchange', () => {
+  const m = location.hash.match(/^#card-(\d+)$/);
+  if (m && CARDS[+m[1]]) openCard(+m[1]); else closeCard();
+});
+
+renderGrid();
+const m = location.hash.match(/^#card-(\d+)$/);
+if (m && CARDS[+m[1]]) openCard(+m[1]);
+</script>
+</body>
+</html>
