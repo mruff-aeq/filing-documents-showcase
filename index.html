@@ -152,7 +152,7 @@ function renderGrid() {
         <h3>${esc(c.name)}</h3>
         <div class="biz">${esc(biz.join(', ')) || 'no filing captured'}</div>
         <div class="row">
-          ${statuses.map(s => `<span class="pill status s-${s.toLowerCase()}">${esc(s)}</span>`).join('')}
+          ${statuses.filter(s => s !== 'COMPLETED').map(s => `<span class="pill status s-${s.toLowerCase()}">${esc(s)}</span>`).join('')}
           <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
           ${rtypes.map(t => `<span class="pill rtype rt-${t.toLowerCase()}">${esc(t)}</span>`).join('')}
           ${nStamped ? `<span class="pill stamp">${nStamped} stamped on download</span>` : ''}
@@ -175,7 +175,7 @@ function openCard(i) {
   c.filings.forEach((f, idx) => {
     const step = c.filings.length > 1 ? `<span class="stepno">Step ${idx + 1}</span> ` : '';
     html += `<div class="fcard">
-      <h3>${step}${esc(f.displayName || f.type)}<span class="badge s-${f.status.toLowerCase()}">${esc(f.status)}</span></h3>
+      <h3>${step}${esc(f.displayName || f.type)}${f.status === 'COMPLETED' ? '' : `<span class="badge s-${f.status.toLowerCase()}">${esc(f.status)}</span>`}</h3>
       <table class="info">
         <tr><td>Business</td><td>${esc(f.identifier)} — ${esc(f.legalName)}
             (${esc(f.bizState)})</td></tr>
