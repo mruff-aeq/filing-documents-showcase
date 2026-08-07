@@ -14,6 +14,15 @@
     --wash-destructive: #fbeeea; --dot-destructive: #b3552e;
     --wash-amalgamation: #fdf4e3; --dot-amalgamation: #a37b1e;
     --stamp: #8a2432; --stamp-wash: #f9e9ec;
+    --ok: #2e7d4f; --ok-wash: #e9f5ee;
+    --warn: #a37b1e; --warn-wash: #fdf4e3;
+    --gone: #5a6674; --gone-wash: #eef1f4;
+    --corr: #7a4bbf; --corr-wash: #f3ecfa;
+    --rt-filing: #1a5a96; --rt-filing-wash: #e7f0fa;
+    --rt-filing2: #4f46b8; --rt-filing2-wash: #ecebfa;
+    --rt-filing3: #b3552e; --rt-filing3-wash: #fbeeea;
+    --rt-noa: #0f766e; --rt-noa-wash: #e6f4f2;
+    --rt-cert: #9c2a70; --rt-cert-wash: #f9e8f2;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -25,6 +34,15 @@
       --wash-destructive: #32211b; --dot-destructive: #e08b62;
       --wash-amalgamation: #2f2917; --dot-amalgamation: #d9b45a;
       --stamp: #e8798b; --stamp-wash: #38222a;
+      --ok: #6cc793; --ok-wash: #1c2e24;
+      --warn: #d9b45a; --warn-wash: #2f2917;
+      --gone: #9aa6b2; --gone-wash: #232830;
+      --corr: #b18ae8; --corr-wash: #281f38;
+      --rt-filing: #5da8e8; --rt-filing-wash: #1d2a38;
+      --rt-filing2: #a5a0ee; --rt-filing2-wash: #232043;
+      --rt-filing3: #e08b62; --rt-filing3-wash: #32211b;
+      --rt-noa: #5ec9bf; --rt-noa-wash: #173029;
+      --rt-cert: #e87bbb; --rt-cert-wash: #341f2b;
     }
   }
   * { box-sizing: border-box; }
@@ -54,8 +72,20 @@
           border: 1px solid var(--line); }
   .pill.status { font-weight: 600; }
   .pill.docs { background: var(--chip); }
-  .pill.rtype { background: var(--chip); color: var(--muted); font-family: ui-monospace,
-                SFMono-Regular, Menlo, monospace; font-size: 10.5px; }
+  .pill.rtype { font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+                font-size: 10.5px; background: var(--chip); color: var(--muted); }
+  .s-completed { background: var(--ok-wash); color: var(--ok); border-color: var(--ok); }
+  .s-paid { background: var(--warn-wash); color: var(--warn); border-color: var(--warn); }
+  .s-withdrawn { background: var(--gone-wash); color: var(--gone); border-color: var(--gone); }
+  .s-corrected { background: var(--corr-wash); color: var(--corr); border-color: var(--corr); }
+  .rt-filing { background: var(--rt-filing-wash); color: var(--rt-filing);
+               border-color: var(--rt-filing); }
+  .rt-filing-2 { background: var(--rt-filing2-wash); color: var(--rt-filing2);
+                 border-color: var(--rt-filing2); }
+  .rt-filing-3 { background: var(--rt-filing3-wash); color: var(--rt-filing3);
+                 border-color: var(--rt-filing3); }
+  .rt-noa { background: var(--rt-noa-wash); color: var(--rt-noa); border-color: var(--rt-noa); }
+  .rt-cert { background: var(--rt-cert-wash); color: var(--rt-cert); border-color: var(--rt-cert); }
   .pill.stamp, .stampbadge { background: var(--stamp-wash); border-color: var(--stamp);
                              color: var(--stamp); font-weight: 600; }
   .stampbadge { display: inline-block; font-size: 11px; padding: 1px 8px;
@@ -135,9 +165,9 @@ function renderGrid() {
         <h3>${esc(c.name)}</h3>
         <div class="biz">${esc(biz.join(', ')) || 'no filing captured'}</div>
         <div class="row">
-          ${statuses.map(s => `<span class="pill status">${esc(s)}</span>`).join('')}
+          ${statuses.map(s => `<span class="pill status s-${s.toLowerCase()}">${esc(s)}</span>`).join('')}
           <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
-          ${rtypes.map(t => `<span class="pill rtype">${esc(t)}</span>`).join('')}
+          ${rtypes.map(t => `<span class="pill rtype rt-${t.toLowerCase()}">${esc(t)}</span>`).join('')}
           ${nStamped ? `<span class="pill stamp">${nStamped} stamped on download</span>` : ''}
           ${c.filings.length > 1 ? `<span class="pill docs">${c.filings.length} filing steps</span>` : ''}
         </div>
@@ -157,7 +187,7 @@ function openCard(i) {
   c.filings.forEach((f, idx) => {
     const step = c.filings.length > 1 ? `<span class="stepno">Step ${idx + 1}</span> ` : '';
     html += `<div class="fcard">
-      <h3>${step}${esc(f.displayName || f.type)}<span class="badge">${esc(f.status)}</span></h3>
+      <h3>${step}${esc(f.displayName || f.type)}<span class="badge s-${f.status.toLowerCase()}">${esc(f.status)}</span></h3>
       <table class="info">
         <tr><td>Business</td><td>${esc(f.identifier)} — ${esc(f.legalName)}
             (${esc(f.bizState)})</td></tr>
@@ -176,7 +206,7 @@ function openCard(i) {
         ? `<span class="stampbadge" title="Certified-copy stamp applied at download time (DRS certifiedCopy=true) — verified present in this PDF">&#9873; DRS stamp on download</span>`
         : '';
       html += `<div class="doc"><h4>${esc(d.label)}
-        <span class="srcbadge">${src}</span>${stamp}
+        <span class="srcbadge ${d.reportType ? 'rt-' + d.reportType.toLowerCase() : ''}">${src}</span>${stamp}
         <a href="${esc(d.path)}" target="_blank">open in new tab &nearr;</a></h4>
         <iframe src="${esc(d.path)}" title="${esc(d.label)}" loading="lazy"></iframe></div>`;
     });
