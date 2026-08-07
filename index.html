@@ -23,6 +23,7 @@
     --rt-filing3: #b3552e; --rt-filing3-wash: #fbeeea;
     --rt-noa: #0f766e; --rt-noa-wash: #e6f4f2;
     --rt-cert: #9c2a70; --rt-cert-wash: #f9e8f2;
+    --steps: #0e7490; --steps-wash: #e0f2f7;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -43,6 +44,7 @@
       --rt-filing3: #e08b62; --rt-filing3-wash: #32211b;
       --rt-noa: #5ec9bf; --rt-noa-wash: #173029;
       --rt-cert: #e87bbb; --rt-cert-wash: #341f2b;
+      --steps: #67cfe3; --steps-wash: #173038;
     }
   }
   * { box-sizing: border-box; }
@@ -86,6 +88,8 @@
                  border-color: var(--rt-filing3); }
   .rt-noa { background: var(--rt-noa-wash); color: var(--rt-noa); border-color: var(--rt-noa); }
   .rt-cert { background: var(--rt-cert-wash); color: var(--rt-cert); border-color: var(--rt-cert); }
+  .pill.steps { background: var(--steps-wash); color: var(--steps);
+                border-color: var(--steps); font-weight: 600; }
   .pill.stamp, .stampbadge { background: var(--stamp-wash); border-color: var(--stamp);
                              color: var(--stamp); font-weight: 600; }
   .stampbadge { display: inline-block; font-size: 11px; padding: 1px 8px;
@@ -169,7 +173,7 @@ function renderGrid() {
           <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
           ${rtypes.map(t => `<span class="pill rtype rt-${t.toLowerCase()}">${esc(t)}</span>`).join('')}
           ${nStamped ? `<span class="pill stamp">${nStamped} stamped on download</span>` : ''}
-          ${c.filings.length > 1 ? `<span class="pill docs">${c.filings.length} filing steps</span>` : ''}
+          ${c.filings.length > 1 ? `<span class="pill steps">${c.filings.length} filing steps</span>` : ''}
         </div>
       </div>`;
     });
