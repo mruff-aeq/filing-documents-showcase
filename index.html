@@ -77,6 +77,9 @@
   .fcard { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
            padding: 18px 20px; margin-bottom: 26px; }
   .fcard h3 { margin: 0 0 2px; font-size: 16px; }
+  .stepno { display: inline-block; background: var(--accent); color: var(--accent-ink);
+            font-size: 11.5px; font-weight: 600; border-radius: 9px; padding: 1px 9px;
+            margin-right: 6px; vertical-align: 2px; }
   .badge { display: inline-block; background: var(--chip); border: 1px solid var(--line);
            border-radius: 10px; padding: 1px 9px; font-size: 12px; margin-left: 8px;
            vertical-align: 2px; }
@@ -150,9 +153,10 @@ function openCard(i) {
               <h2>${esc(c.name)}</h2>
               ${c.description ? `<p class="desc">${esc(c.description)}</p>` : ''}`;
   if (!c.filings.length) html += `<p class="empty">No filing captured for this step.</p>`;
-  c.filings.forEach(f => {
+  c.filings.forEach((f, idx) => {
+    const step = c.filings.length > 1 ? `<span class="stepno">Step ${idx + 1}</span> ` : '';
     html += `<div class="fcard">
-      <h3>${esc(f.displayName || f.type)}<span class="badge">${esc(f.status)}</span></h3>
+      <h3>${step}${esc(f.displayName || f.type)}<span class="badge">${esc(f.status)}</span></h3>
       <table class="info">
         <tr><td>Business</td><td>${esc(f.identifier)} — ${esc(f.legalName)}
             (${esc(f.bizState)})</td></tr>
@@ -163,7 +167,7 @@ function openCard(i) {
       </table>`;
     if (!f.documents.length)
       html += `<p class="empty">No output documents for this filing type.</p>`;
-    f.documents.forEach(d => {
+    [...f.documents].sort((a, b) => a.label.localeCompare(b.label)).forEach(d => {
       const src = d.reportType
         ? `DRS &middot; ${esc(d.reportType)}${d.drsId ? '' : ' (server-resolved)'}`
         : 'generated at download';
