@@ -51,6 +51,8 @@
           border: 1px solid var(--line); }
   .pill.status { font-weight: 600; }
   .pill.docs { background: var(--chip); }
+  .pill.rtype { background: var(--chip); color: var(--muted); font-family: ui-monospace,
+                SFMono-Regular, Menlo, monospace; font-size: 10.5px; }
   .pill.stamp, .stampbadge { background: var(--stamp-wash); border-color: var(--stamp);
                              color: var(--stamp); font-weight: 600; }
   .stampbadge { display: inline-block; font-size: 11px; padding: 1px 8px;
@@ -119,6 +121,8 @@ function renderGrid() {
         (n, f) => n + f.documents.filter(d => d.stampedOnDownload).length, 0);
       const statuses = [...new Set(c.filings.map(f => f.status))];
       const biz = [...new Set(c.filings.map(f => f.identifier))];
+      const rtypes = [...new Set(c.filings.flatMap(f =>
+        f.documents.map(d => d.reportType).filter(Boolean)))];
       html += `<div class="card" style="--dot: var(--dot-${cat}); --wash: var(--wash-${cat})"
                     onclick="openCard(${i})">
         <h3>${esc(c.name)}</h3>
@@ -126,6 +130,7 @@ function renderGrid() {
         <div class="row">
           ${statuses.map(s => `<span class="pill status">${esc(s)}</span>`).join('')}
           <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
+          ${rtypes.map(t => `<span class="pill rtype">${esc(t)}</span>`).join('')}
           ${nStamped ? `<span class="pill stamp">${nStamped} stamped on download</span>` : ''}
           ${c.filings.length > 1 ? `<span class="pill docs">${c.filings.length} filings</span>` : ''}
         </div>
