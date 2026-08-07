@@ -135,7 +135,7 @@ function renderGrid() {
           <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
           ${rtypes.map(t => `<span class="pill rtype">${esc(t)}</span>`).join('')}
           ${nStamped ? `<span class="pill stamp">${nStamped} stamped on download</span>` : ''}
-          ${c.filings.length > 1 ? `<span class="pill docs">${c.filings.length} filings</span>` : ''}
+          ${c.filings.length > 1 ? `<span class="pill docs">${c.filings.length} filing steps</span>` : ''}
         </div>
       </div>`;
     });
