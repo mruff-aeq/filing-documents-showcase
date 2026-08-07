@@ -5,47 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Filing Documents Showcase</title>
 <style>
+  /* dark theme forced for everyone regardless of OS preference */
   :root {
-    --bg: #f4f6f8; --panel: #ffffff; --ink: #1a1f26; --muted: #66707d;
-    --line: #dde2e8; --accent: #1a5a96; --accent-ink: #ffffff; --chip: #eef2f6;
-    --wash-workhorse: #e7f0fa; --dot-workhorse: #1a5a96;
-    --wash-liquidation: #f3ecfa; --dot-liquidation: #7a4bbf;
-    --wash-lifecycle: #e9f5ee; --dot-lifecycle: #2e7d4f;
-    --wash-destructive: #fbeeea; --dot-destructive: #b3552e;
-    --wash-amalgamation: #fdf4e3; --dot-amalgamation: #a37b1e;
-    --stamp: #8a2432; --stamp-wash: #f9e9ec;
-    --ok: #2e7d4f; --ok-wash: #e9f5ee;
-    --warn: #a37b1e; --warn-wash: #fdf4e3;
-    --gone: #5a6674; --gone-wash: #eef1f4;
-    --corr: #7a4bbf; --corr-wash: #f3ecfa;
-    --rt-filing: #1a5a96; --rt-filing-wash: #e7f0fa;
-    --rt-filing2: #4f46b8; --rt-filing2-wash: #ecebfa;
-    --rt-filing3: #b3552e; --rt-filing3-wash: #fbeeea;
-    --rt-noa: #0f766e; --rt-noa-wash: #e6f4f2;
-    --rt-cert: #9c2a70; --rt-cert-wash: #f9e8f2;
-    --steps: #0e7490; --steps-wash: #e0f2f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14171b; --panel: #1d222a; --ink: #e8ebee; --muted: #98a2ad;
-      --line: #2e353d; --accent: #5da8e8; --accent-ink: #10141a; --chip: #262d35;
-      --wash-workhorse: #1d2a38; --dot-workhorse: #5da8e8;
-      --wash-liquidation: #281f38; --dot-liquidation: #b18ae8;
-      --wash-lifecycle: #1c2e24; --dot-lifecycle: #6cc793;
-      --wash-destructive: #32211b; --dot-destructive: #e08b62;
-      --wash-amalgamation: #2f2917; --dot-amalgamation: #d9b45a;
-      --stamp: #e8798b; --stamp-wash: #38222a;
-      --ok: #6cc793; --ok-wash: #1c2e24;
-      --warn: #d9b45a; --warn-wash: #2f2917;
-      --gone: #9aa6b2; --gone-wash: #232830;
-      --corr: #b18ae8; --corr-wash: #281f38;
-      --rt-filing: #5da8e8; --rt-filing-wash: #1d2a38;
-      --rt-filing2: #a5a0ee; --rt-filing2-wash: #232043;
-      --rt-filing3: #e08b62; --rt-filing3-wash: #32211b;
-      --rt-noa: #5ec9bf; --rt-noa-wash: #173029;
-      --rt-cert: #e87bbb; --rt-cert-wash: #341f2b;
-      --steps: #67cfe3; --steps-wash: #173038;
-    }
+    color-scheme: dark;
+    --bg: #14171b; --panel: #1d222a; --ink: #e8ebee; --muted: #98a2ad;
+    --line: #2e353d; --accent: #5da8e8; --accent-ink: #10141a; --chip: #262d35;
+    --wash-workhorse: #1d2a38; --dot-workhorse: #5da8e8;
+    --wash-liquidation: #281f38; --dot-liquidation: #b18ae8;
+    --wash-lifecycle: #1c2e24; --dot-lifecycle: #6cc793;
+    --wash-destructive: #32211b; --dot-destructive: #e08b62;
+    --wash-amalgamation: #2f2917; --dot-amalgamation: #d9b45a;
+    --stamp: #e8798b; --stamp-wash: #38222a;
+    --ok: #6cc793; --ok-wash: #1c2e24;
+    --warn: #d9b45a; --warn-wash: #2f2917;
+    --gone: #9aa6b2; --gone-wash: #232830;
+    --corr: #b18ae8; --corr-wash: #281f38;
+    --rt-filing: #5da8e8; --rt-filing-wash: #1d2a38;
+    --rt-filing2: #a5a0ee; --rt-filing2-wash: #232043;
+    --rt-filing3: #e08b62; --rt-filing3-wash: #32211b;
+    --rt-noa: #5ec9bf; --rt-noa-wash: #173029;
+    --rt-cert: #e87bbb; --rt-cert-wash: #341f2b;
+    --steps: #67cfe3; --steps-wash: #173038;
   }
   * { box-sizing: border-box; }
   body { margin: 0; font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
