@@ -1121,32 +1121,6 @@
      ]
     },
     {
-     "filingId": 3732045,
-     "type": "changeOfAddress",
-     "status": "WITHDRAWN",
-     "displayName": "Address Change",
-     "documents": [
-      {
-       "label": "legalFilings-changeOfAddress",
-       "path": "documents/BC3000144-3732045-changeOfAddress/legalFilings-changeOfAddress.pdf",
-       "source": "drs",
-       "reportType": "FILING",
-       "drsId": "DSR0000107035",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000144-3732045-changeOfAddress/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
      "filingId": 3732046,
      "type": "noticeOfWithdrawal",
      "status": "COMPLETED",
