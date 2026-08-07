@@ -117,7 +117,8 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g,
 function renderGrid() {
   let html = '';
   for (const [cat, label] of Object.entries(CATEGORIES)) {
-    const cards = CARDS.filter(c => c.category === cat);
+    const cards = CARDS.filter(c => c.category === cat)
+      .sort((a, b) => a.name.localeCompare(b.name));
     if (!cards.length) continue;
     html += `<div class="cat">${esc(label)}</div><div class="grid">`;
     cards.forEach(c => {
