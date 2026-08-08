@@ -254,16 +254,23 @@ window.addEventListener('hashchange', () => {
 // Pre-compute each tooltip's horizontal shift so the bubble stays inside the viewport.
 // Done at render time (not on hover events) — touch browsers don't reliably fire
 // pointerenter, and card positions don't change after layout anyway.
-function placeTips() {
+function shiftTip(el) {
   const limit = window.innerWidth * 0.90;  // bubbles stay out of the last 10% of viewport
   const bubbleW = Math.min(280, limit - 12);
-  document.querySelectorAll('.tip').forEach(el => {
-    const r = el.getBoundingClientRect();
-    const shift = Math.min(0, (limit - bubbleW) - r.left);
-    el.style.setProperty('--tip-shift', Math.round(shift) + 'px');
-  });
+  const shift = Math.min(0, (limit - bubbleW) - el.getBoundingClientRect().left);
+  el.style.setProperty('--tip-shift', Math.round(shift) + 'px');
+}
+function placeTips() {
+  document.querySelectorAll('.tip').forEach(shiftTip);
 }
 window.addEventListener('resize', placeTips);
+// Also recompute just-in-time on interaction — mouseover/touchstart bubble reliably
+// everywhere (pointerenter does not fire on tap in some mobile browsers).
+['mouseover', 'touchstart'].forEach(ev =>
+  document.addEventListener(ev, e => {
+    const t = e.target.closest && e.target.closest('.tip');
+    if (t) shiftTip(t);
+  }, {passive: true}));
 
 renderGrid();
 placeTips();
