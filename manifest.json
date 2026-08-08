@@ -1218,8 +1218,8 @@
        "source": "drs",
        "reportType": "FILING",
        "drsId": "DSR0000107082",
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": true
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
