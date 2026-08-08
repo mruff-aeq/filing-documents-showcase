@@ -50,11 +50,13 @@
                   background: var(--dot); border-radius: 10px 0 0 10px; }
   .tip { position: relative; }
   .tip:hover { z-index: 25; }
+  .tip.tip-right::after { left: auto; right: 0; }
   .tip:hover::after { content: attr(data-tip); position: absolute; left: 0;
                       top: calc(100% + 6px); z-index: 20; background: #0c0f13;
                       color: #e8ebee; border: 1px solid var(--line); padding: 6px 10px;
                       border-radius: 6px; font-size: 12px; line-height: 1.4;
-                      width: max-content; max-width: 280px; white-space: normal;
+                      width: max-content; max-width: min(280px, calc(100vw - 24px));
+                      white-space: normal;
                       font-weight: normal; font-family: -apple-system, BlinkMacSystemFont,
                       "Segoe UI", sans-serif; box-shadow: 0 4px 14px rgba(0,0,0,.4);
                       pointer-events: none; }
@@ -247,6 +249,13 @@ window.addEventListener('hashchange', () => {
   const m = location.hash.match(/^#card-(\d+)$/);
   if (m && CARDS[+m[1]]) openCard(+m[1]); else closeCard();
 });
+
+// Flip a tooltip to right-align when it would run off the viewport edge.
+document.addEventListener('pointerenter', e => {
+  if (!(e.target instanceof Element) || !e.target.classList.contains('tip')) return;
+  const r = e.target.getBoundingClientRect();
+  e.target.classList.toggle('tip-right', r.left + 290 > window.innerWidth);
+}, true);
 
 renderGrid();
 const m = location.hash.match(/^#card-(\d+)$/);
