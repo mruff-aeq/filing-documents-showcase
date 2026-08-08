@@ -50,8 +50,8 @@
                   background: var(--dot); border-radius: 10px 0 0 10px; }
   .tip { position: relative; }
   .tip:hover { z-index: 25; }
-  .tip.tip-right::after { left: auto; right: 0; }
-  .tip:hover::after { content: attr(data-tip); position: absolute; left: 0;
+  .tip:hover::after { content: attr(data-tip); position: absolute;
+                      left: var(--tip-shift, 0);
                       top: calc(100% + 6px); z-index: 20; background: #0c0f13;
                       color: #e8ebee; border: 1px solid var(--line); padding: 6px 10px;
                       border-radius: 6px; font-size: 12px; line-height: 1.4;
@@ -237,6 +237,7 @@ function openCard(i) {
   document.body.classList.add('detail-open');
   window.scrollTo(0, 0);
   location.hash = 'card-' + i;
+  placeTips();
 }
 
 function closeCard() {
@@ -250,14 +251,21 @@ window.addEventListener('hashchange', () => {
   if (m && CARDS[+m[1]]) openCard(+m[1]); else closeCard();
 });
 
-// Flip a tooltip to right-align when it would run off the viewport edge.
-document.addEventListener('pointerenter', e => {
-  if (!(e.target instanceof Element) || !e.target.classList.contains('tip')) return;
-  const r = e.target.getBoundingClientRect();
-  e.target.classList.toggle('tip-right', r.left + 290 > window.innerWidth);
-}, true);
+// Pre-compute each tooltip's horizontal shift so the bubble stays inside the viewport.
+// Done at render time (not on hover events) — touch browsers don't reliably fire
+// pointerenter, and card positions don't change after layout anyway.
+function placeTips() {
+  const bubbleW = Math.min(280, window.innerWidth - 24);
+  document.querySelectorAll('.tip').forEach(el => {
+    const r = el.getBoundingClientRect();
+    const shift = Math.min(0, (window.innerWidth - 12 - bubbleW) - r.left);
+    el.style.setProperty('--tip-shift', Math.round(shift) + 'px');
+  });
+}
+window.addEventListener('resize', placeTips);
 
 renderGrid();
+placeTips();
 const m = location.hash.match(/^#card-(\d+)$/);
 if (m && CARDS[+m[1]]) openCard(+m[1]);
 </script>
