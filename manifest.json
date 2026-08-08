@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07",
+ "generated": "2026-08-08",
  "runDate": "2026-08-06",
  "businesses": [
   {
@@ -1209,17 +1209,26 @@
     {
      "filingId": 3732084,
      "type": "changeOfAddress",
-     "status": "PAID",
+     "status": "COMPLETED",
      "displayName": "Address Change",
      "documents": [
       {
        "label": "legalFilings-changeOfAddress",
        "path": "documents/BC3000144-3732084-changeOfAddress/legalFilings-changeOfAddress.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107082",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
+      },
+      {
+       "label": "noticeOfArticles",
+       "path": "documents/BC3000144-3732084-changeOfAddress/noticeOfArticles.pdf",
+       "source": "drs",
+       "reportType": "NOA",
+       "drsId": "DSR0000107083",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
