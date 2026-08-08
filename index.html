@@ -55,7 +55,7 @@
                       top: calc(100% + 6px); z-index: 20; background: #0c0f13;
                       color: #e8ebee; border: 1px solid var(--line); padding: 6px 10px;
                       border-radius: 6px; font-size: 12px; line-height: 1.4;
-                      width: max-content; max-width: min(280px, calc(100vw - 24px));
+                      width: max-content; max-width: min(280px, calc(95vw - 12px));
                       white-space: normal;
                       font-weight: normal; font-family: -apple-system, BlinkMacSystemFont,
                       "Segoe UI", sans-serif; box-shadow: 0 4px 14px rgba(0,0,0,.4);
@@ -255,10 +255,11 @@ window.addEventListener('hashchange', () => {
 // Done at render time (not on hover events) — touch browsers don't reliably fire
 // pointerenter, and card positions don't change after layout anyway.
 function placeTips() {
-  const bubbleW = Math.min(280, window.innerWidth - 24);
+  const limit = window.innerWidth * 0.95;  // bubbles stay out of the last 5% of viewport
+  const bubbleW = Math.min(280, limit - 12);
   document.querySelectorAll('.tip').forEach(el => {
     const r = el.getBoundingClientRect();
-    const shift = Math.min(0, (window.innerWidth - 12 - bubbleW) - r.left);
+    const shift = Math.min(0, (limit - bubbleW) - r.left);
     el.style.setProperty('--tip-shift', Math.round(shift) + 'px');
   });
 }
