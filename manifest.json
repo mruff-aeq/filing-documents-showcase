@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08",
+ "generated": "2026-08-09",
  "runDate": "2026-08-06",
  "businesses": [
   {
@@ -444,6 +444,541 @@
    ]
   },
   {
+   "slot": "CI1",
+   "identifier": "C3000155",
+   "legalName": "3000155 B.C. LTD.",
+   "state": "ACTIVE",
+   "filings": [
+    {
+     "filingId": 3732124,
+     "type": "continuationIn",
+     "status": "COMPLETED",
+     "displayName": "BC Limited Company Continuation Application",
+     "documents": [
+      {
+       "label": "certificateOfContinuation",
+       "path": "documents/C3000155-3732124-continuationIn/certificateOfContinuation.pdf",
+       "source": "drs",
+       "reportType": "CERT",
+       "drsId": "DSR0000107101",
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "legalFilings-continuationIn",
+       "path": "documents/C3000155-3732124-continuationIn/legalFilings-continuationIn.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107099",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "noticeOfArticles",
+       "path": "documents/C3000155-3732124-continuationIn/noticeOfArticles.pdf",
+       "source": "drs",
+       "reportType": "NOA",
+       "drsId": "DSR0000107100",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/C3000155-3732124-continuationIn/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "staticDocuments-0-url",
+       "path": "documents/C3000155-3732124-continuationIn/staticDocuments-0-url.pdf",
+       "source": "drs",
+       "reportType": null,
+       "drsId": "DS0000102119",
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slot": "CP1",
+   "identifier": "CP0001701",
+   "legalName": "ARBUTUS HOUSING COOPERATIVE",
+   "state": "ACTIVE",
+   "filings": [
+    {
+     "filingId": 3732093,
+     "type": "specialResolution",
+     "status": "CORRECTED",
+     "displayName": "Special Resolution",
+     "documents": [
+      {
+       "label": "certifiedRules",
+       "path": "documents/CP0001701-3732093-specialResolution/certifiedRules.pdf",
+       "source": "drs",
+       "reportType": null,
+       "drsId": "DS0000102113",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "legalFilings-specialResolution",
+       "path": "documents/CP0001701-3732093-specialResolution/legalFilings-specialResolution.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107084",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732093-specialResolution/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "specialResolutionApplication",
+       "path": "documents/CP0001701-3732093-specialResolution/specialResolutionApplication.pdf",
+       "source": "drs",
+       "reportType": "FILING-2",
+       "drsId": "DSR0000107085",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732094,
+     "type": "changeOfAddress",
+     "status": "COMPLETED",
+     "displayName": "Address Change",
+     "documents": [
+      {
+       "label": "legalFilings-changeOfAddress",
+       "path": "documents/CP0001701-3732094-changeOfAddress/legalFilings-changeOfAddress.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107090",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732094-changeOfAddress/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732095,
+     "type": "correction",
+     "status": "COMPLETED",
+     "displayName": "Register Correction Application",
+     "documents": [
+      {
+       "label": "legalFilings-correction",
+       "path": "documents/CP0001701-3732095-correction/legalFilings-correction.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107086",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732095-correction/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732097,
+     "type": "registrarsNotation",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Notation",
+     "documents": []
+    },
+    {
+     "filingId": 3732098,
+     "type": "registrarsOrder",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Order",
+     "documents": []
+    },
+    {
+     "filingId": 3732099,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Freeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732099-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732100,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Unfreeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732100-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732101,
+     "type": "registrarsNotation",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Notation",
+     "documents": []
+    },
+    {
+     "filingId": 3732102,
+     "type": "registrarsOrder",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Order",
+     "documents": []
+    },
+    {
+     "filingId": 3732103,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Freeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732103-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732104,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Unfreeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732104-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732105,
+     "type": "specialResolution",
+     "status": "CORRECTED",
+     "displayName": "Special Resolution",
+     "documents": [
+      {
+       "label": "certifiedRules",
+       "path": "documents/CP0001701-3732105-specialResolution/certifiedRules.pdf",
+       "source": "drs",
+       "reportType": null,
+       "drsId": "DS0000102117",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "legalFilings-specialResolution",
+       "path": "documents/CP0001701-3732105-specialResolution/legalFilings-specialResolution.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107087",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732105-specialResolution/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "specialResolutionApplication",
+       "path": "documents/CP0001701-3732105-specialResolution/specialResolutionApplication.pdf",
+       "source": "drs",
+       "reportType": "FILING-2",
+       "drsId": "DSR0000107088",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732106,
+     "type": "changeOfAddress",
+     "status": "COMPLETED",
+     "displayName": "Address Change",
+     "documents": [
+      {
+       "label": "legalFilings-changeOfAddress",
+       "path": "documents/CP0001701-3732106-changeOfAddress/legalFilings-changeOfAddress.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107091",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732106-changeOfAddress/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732107,
+     "type": "changeOfDirectors",
+     "status": "COMPLETED",
+     "displayName": "Director Change",
+     "documents": [
+      {
+       "label": "legalFilings-changeOfDirectors",
+       "path": "documents/CP0001701-3732107-changeOfDirectors/legalFilings-changeOfDirectors.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107092",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732107-changeOfDirectors/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732108,
+     "type": "correction",
+     "status": "COMPLETED",
+     "displayName": "Register Correction Application",
+     "documents": [
+      {
+       "label": "legalFilings-correction",
+       "path": "documents/CP0001701-3732108-correction/legalFilings-correction.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107089",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732108-correction/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732109,
+     "type": "registrarsNotation",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Notation",
+     "documents": []
+    },
+    {
+     "filingId": 3732110,
+     "type": "registrarsOrder",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Order",
+     "documents": []
+    },
+    {
+     "filingId": 3732111,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Freeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732111-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732112,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Unfreeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732112-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732122,
+     "type": "changeOfOfficers",
+     "status": "COMPLETED",
+     "displayName": "Officer Change",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/CP0001701-3732122-changeOfOfficers/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slot": "CP2",
+   "identifier": "CP0001439",
+   "legalName": "NORTH SHORE HOUSING CO-OPERATIVE",
+   "state": "HISTORICAL",
+   "filings": [
+    {
+     "filingId": 3732121,
+     "type": "annualReport",
+     "status": "COMPLETED",
+     "displayName": "Annual Report (2017)",
+     "documents": [
+      {
+       "label": "legalFilings-annualReport",
+       "path": "documents/CP0001439-3732121-annualReport/legalFilings-annualReport.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107097",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001439-3732121-annualReport/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732127,
+     "type": "dissolution",
+     "status": "COMPLETED",
+     "displayName": "Voluntary Dissolution",
+     "documents": [
+      {
+       "label": "affidavit",
+       "path": "documents/CP0001439-3732127-dissolution/affidavit.pdf",
+       "source": "drs",
+       "reportType": null,
+       "drsId": "DS0000102123",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "certificateOfDissolution",
+       "path": "documents/CP0001439-3732127-dissolution/certificateOfDissolution.pdf",
+       "source": "drs",
+       "reportType": "CERT",
+       "drsId": "DSR0000107103",
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "legalFilings-dissolution",
+       "path": "documents/CP0001439-3732127-dissolution/legalFilings-dissolution.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107102",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "legalFilings-specialResolution",
+       "path": "documents/CP0001439-3732127-dissolution/legalFilings-specialResolution.pdf",
+       "source": "drs",
+       "reportType": "FILING-2",
+       "drsId": "DSR0000107104",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP0001439-3732127-dissolution/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slot": "D1",
    "identifier": "BC3000142",
    "legalName": "3000142 B.C. LTD.",
@@ -585,6 +1120,175 @@
      "status": "COMPLETED",
      "displayName": "Correction - Put Back On",
      "documents": []
+    }
+   ]
+  },
+  {
+   "slot": "FM1",
+   "identifier": "FM1169820",
+   "legalName": "KIAL JINNAH",
+   "state": "HISTORICAL",
+   "filings": [
+    {
+     "filingId": 3732113,
+     "type": "correction",
+     "status": "COMPLETED",
+     "displayName": "Register Correction Application",
+     "documents": [
+      {
+       "label": "correctedRegistrationStatement",
+       "path": "documents/FM1169820-3732113-correction/correctedRegistrationStatement.pdf",
+       "source": "drs",
+       "reportType": "FILING-2",
+       "drsId": "DSR0000107094",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "legalFilings-correction",
+       "path": "documents/FM1169820-3732113-correction/legalFilings-correction.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107093",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/FM1169820-3732113-correction/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732114,
+     "type": "courtOrder",
+     "status": "COMPLETED",
+     "displayName": "Court Order",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/FM1169820-3732114-courtOrder/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732115,
+     "type": "registrarsNotation",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Notation",
+     "documents": []
+    },
+    {
+     "filingId": 3732116,
+     "type": "registrarsOrder",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Order",
+     "documents": []
+    },
+    {
+     "filingId": 3732117,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Freeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/FM1169820-3732117-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732118,
+     "type": "adminFreeze",
+     "status": "COMPLETED",
+     "displayName": "Admin Unfreeze",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/FM1169820-3732118-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732119,
+     "type": "changeOfRegistration",
+     "status": "COMPLETED",
+     "displayName": "Change of Registration Application",
+     "documents": [
+      {
+       "label": "amendedRegistrationStatement",
+       "path": "documents/FM1169820-3732119-changeOfRegistration/amendedRegistrationStatement.pdf",
+       "source": "drs",
+       "reportType": "FILING-2",
+       "drsId": "DSR0000107096",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "legalFilings-changeOfRegistration",
+       "path": "documents/FM1169820-3732119-changeOfRegistration/legalFilings-changeOfRegistration.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107095",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/FM1169820-3732119-changeOfRegistration/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3732123,
+     "type": "dissolution",
+     "status": "COMPLETED",
+     "displayName": "Statement of Dissolution",
+     "documents": [
+      {
+       "label": "legalFilings-dissolution",
+       "path": "documents/FM1169820-3732123-dissolution/legalFilings-dissolution.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000107098",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/FM1169820-3732123-dissolution/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
     }
    ]
   },
@@ -1240,6 +1944,21 @@
        "bakedRegistrarSignature": false
       }
      ]
+    }
+   ]
+  },
+  {
+   "slot": "FM2",
+   "identifier": "FM1000001",
+   "legalName": "ALPHA PARTNER, BETA PARTNER",
+   "state": "ACTIVE",
+   "filings": [
+    {
+     "filingId": 3732125,
+     "type": "conversion",
+     "status": "COMPLETED",
+     "displayName": "Record Conversion",
+     "documents": []
     }
    ]
   }
