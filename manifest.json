@@ -999,7 +999,7 @@
    "slot": "CP3",
    "identifier": "CP1044819",
    "legalName": "E2E DEV TEST HOUSING COOPERATIVE",
-   "state": "HISTORICAL",
+   "state": "ACTIVE",
    "filings": [
     {
      "filingId": 3732178,
@@ -1106,6 +1106,13 @@
        "bakedRegistrarSignature": false
       }
      ]
+    },
+    {
+     "filingId": 3732187,
+     "type": "putBackOn",
+     "status": "COMPLETED",
+     "displayName": "Correction - Put Back On",
+     "documents": []
     }
    ]
   },
