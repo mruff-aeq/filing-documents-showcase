@@ -1,0 +1,69 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000165",
+      "legalType": "BC"
+    },
+    "changeOfReceivers": {
+      "type": "appointReceiver",
+      "relationships": [
+        {
+          "actions": [
+            "ADDED"
+          ],
+          "entity": {
+            "givenName": "Phillip Tandy",
+            "familyName": "Miller",
+            "alternateName": "Phil Miller"
+          },
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Receiver"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "ADDED"
+          ],
+          "entity": {
+            "businessName": "Test Business"
+          },
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Receiver"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

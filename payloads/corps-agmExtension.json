@@ -1,0 +1,15 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000166",
+      "legalType": "BC"
+    },
+    "agmExtension": {
+      "year": "2026",
+      "isFirstAgm": true,
+      "extReqForAgmYear": false,
+      "totalApprovedExt": 6,
+      "extensionDuration": 6
+    }
+  }
+}

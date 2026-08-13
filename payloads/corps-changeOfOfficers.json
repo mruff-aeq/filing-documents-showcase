@@ -1,0 +1,82 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000166",
+      "legalType": "BC"
+    },
+    "changeOfOfficers": {
+      "relationships": [
+        {
+          "entity": {
+            "givenName": "Phillip Tandy",
+            "familyName": "Miller",
+            "alternateName": "Phil Miller"
+          },
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "appointmentDate": "2018-01-01",
+              "cessationDate": "2019-04-03",
+              "roleType": "CEO",
+              "roleClass": "OFFICER"
+            },
+            {
+              "appointmentDate": "2018-01-01",
+              "cessationDate": "2019-04-03",
+              "roleType": "Chair",
+              "roleClass": "OFFICER"
+            }
+          ]
+        },
+        {
+          "entity": {
+            "givenName": "Phillip Stacy",
+            "familyName": "Miller",
+            "alternateName": "Phil Miller"
+          },
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "appointmentDate": "2018-01-01",
+              "cessationDate": "2019-04-03",
+              "roleType": "President",
+              "roleClass": "OFFICER"
+            },
+            {
+              "appointmentDate": "2018-01-01",
+              "cessationDate": "2019-04-03",
+              "roleType": "CEO",
+              "roleClass": "OFFICER"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

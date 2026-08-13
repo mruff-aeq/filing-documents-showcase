@@ -1,0 +1,15 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000162",
+      "legalType": "BC"
+    },
+    "consentContinuationOut": {
+      "foreignJurisdiction": {
+        "country": "CA",
+        "region": "AB"
+      },
+      "details": "A note to explain the consent for continuation out"
+    }
+  }
+}

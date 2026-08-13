@@ -1,0 +1,11 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "CP1044820",
+      "legalType": "CP"
+    },
+    "adminFreeze": {
+      "freeze": false
+    }
+  }
+}

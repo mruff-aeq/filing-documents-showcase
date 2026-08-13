@@ -1,0 +1,14 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "CP1044820",
+      "legalType": "CP"
+    },
+    "registrarsOrder": {
+      "fileNumber": "#1234-5678/90",
+      "orderDate": "2021-01-30T09:56:01+08:00",
+      "effectOfOrder": "planOfArrangement",
+      "orderDetails": "A note about order"
+    }
+  }
+}

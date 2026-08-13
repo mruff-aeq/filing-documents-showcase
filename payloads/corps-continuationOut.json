@@ -1,0 +1,17 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000162",
+      "legalType": "BC"
+    },
+    "continuationOut": {
+      "continuationOutDate": "2026-08-13",
+      "foreignJurisdiction": {
+        "country": "CA",
+        "region": "AB"
+      },
+      "legalName": "HAULER SERVICES",
+      "details": "A note to explain the continuation out"
+    }
+  }
+}

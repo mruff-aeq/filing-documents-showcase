@@ -1,0 +1,85 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "TE3H3P3ziY",
+      "legalType": "SP"
+    },
+    "registration": {
+      "business": {
+        "naics": {
+          "naicsCode": "919110",
+          "naicsDescription": "International and other extra-territorial public administration"
+        },
+        "identifier": "TE3H3P3ziY"
+      },
+      "offices": {
+        "businessOffice": {
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "streetAddressAdditional": "",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "streetAddressAdditional": "",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          }
+        }
+      },
+      "contactPoint": {
+        "email": "mark.ruffolo@gov.bc.ca"
+      },
+      "startDate": "2026-08-13",
+      "nameRequest": {
+        "nrNumber": "NR L011109",
+        "legalName": "E2E 2608130627 TEST VENTURES",
+        "legalType": "SP"
+      },
+      "parties": [
+        {
+          "officer": {
+            "firstName": "E2E",
+            "lastName": "RUNNER",
+            "middleName": "",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": "",
+            "partyType": "person"
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "streetAddressAdditional": "",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "streetAddressAdditional": "",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Completing Party",
+              "appointmentDate": "2026-08-13"
+            },
+            {
+              "roleType": "Proprietor",
+              "appointmentDate": "2026-08-13"
+            }
+          ]
+        }
+      ],
+      "businessType": "SP"
+    }
+  }
+}

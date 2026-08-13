@@ -1,0 +1,13 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000166",
+      "legalType": "BC"
+    },
+    "agmLocationChange": {
+      "year": "2026",
+      "reason": "Some reasons",
+      "agmLocation": "Red Deer, Alberta, Canada"
+    }
+  }
+}

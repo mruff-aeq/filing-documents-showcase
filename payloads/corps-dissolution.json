@@ -1,0 +1,47 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000164",
+      "legalType": "BC"
+    },
+    "dissolution": {
+      "dissolutionDate": "2026-08-13",
+      "dissolutionType": "voluntary",
+      "hasLiabilities": false,
+      "parties": [
+        {
+          "officer": {
+            "firstName": "",
+            "lastName": "",
+            "middleName": "",
+            "organizationName": "Xyz some super super super super super super long business 12345678 name Inc.",
+            "partyType": "organization",
+            "email": "no_one@never.get"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": "",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Custodian",
+              "appointmentDate": "2026-08-13"
+            }
+          ],
+          "deliveryAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": "",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          }
+        }
+      ]
+    }
+  }
+}

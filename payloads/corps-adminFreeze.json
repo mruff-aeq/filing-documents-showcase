@@ -1,0 +1,11 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000166",
+      "legalType": "BC"
+    },
+    "adminFreeze": {
+      "freeze": false
+    }
+  }
+}

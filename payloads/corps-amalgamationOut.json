@@ -1,0 +1,17 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000163",
+      "legalType": "BC"
+    },
+    "amalgamationOut": {
+      "amalgamationOutDate": "2026-08-13",
+      "details": "A note about amalgamation out",
+      "foreignJurisdiction": {
+        "country": "CA",
+        "region": "AB"
+      },
+      "legalName": "HAULER SERVICES"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "TBD",
+      "legalType": "C"
+    },
+    "continuationIn": {
+      "isApproved": false,
+      "foreignJurisdiction": {
+        "country": "CA",
+        "region": "AB",
+        "legalName": "HAULER SERVICES",
+        "identifier": "AB1234567",
+        "incorporationDate": "2019-01-01",
+        "taxId": "123456789",
+        "affidavitFileKey": "011e332d-1b8e-4218-8710-ad8ac1fbc592.pdf"
+      },
+      "authorization": {
+        "files": [
+          {
+            "fileKey": "COOP-DS0000102145",
+            "fileName": "authorization.pdf"
+          }
+        ]
+      },
+      "nameRequest": {
+        "legalType": "C"
+      },
+      "offices": {
+        "registeredOffice": {
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          }
+        },
+        "recordsOffice": {
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          }
+        }
+      },
+      "parties": [
+        {
+          "officer": {
+            "id": 1,
+            "firstName": "Joe",
+            "lastName": "Swanson",
+            "middleName": "P",
+            "email": "joe@email.com",
+            "organizationName": "",
+            "partyType": "person"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": "",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "streetAddressAdditional": "",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Completing Party",
+              "appointmentDate": "2018-01-01"
+            },
+            {
+              "roleType": "Director",
+              "appointmentDate": "2018-01-01"
+            }
+          ]
+        }
+      ],
+      "shareStructure": {
+        "shareClasses": [
+          {
+            "id": 1,
+            "name": "Class 1 Shares",
+            "priority": 1,
+            "hasMaximumShares": true,
+            "maxNumberOfShares": 100,
+            "hasParValue": true,
+            "parValue": 10,
+            "currency": "CAD",
+            "hasRightsOrRestrictions": true,
+            "series": [
+              {
+                "id": 1,
+                "name": "Series 1 Shares",
+                "priority": 1,
+                "hasMaximumShares": true,
+                "maxNumberOfShares": 50,
+                "hasRightsOrRestrictions": false
+              },
+              {
+                "id": 2,
+                "name": "Series 2 Shares",
+                "priority": 2,
+                "hasMaximumShares": true,
+                "maxNumberOfShares": 100,
+                "hasRightsOrRestrictions": false
+              }
+            ]
+          }
+        ]
+      },
+      "contactPoint": {
+        "email": "no_one@never.get",
+        "phone": "(123) 456-7890"
+      }
+    }
+  }
+}

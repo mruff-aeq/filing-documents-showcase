@@ -1,0 +1,14 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000163",
+      "legalType": "BC"
+    },
+    "consentAmalgamationOut": {
+      "foreignJurisdiction": {
+        "country": "CA",
+        "region": "AB"
+      }
+    }
+  }
+}

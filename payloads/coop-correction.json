@@ -1,0 +1,16 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "CP1044820",
+      "legalType": "CP"
+    },
+    "correction": {
+      "correctedFilingId": 3732196,
+      "correctedFilingType": "specialResolution",
+      "correctedFilingDate": "2026-08-13",
+      "commentOnly": true,
+      "type": "STAFF",
+      "comment": "E2E coop runner comment-only correction"
+    }
+  }
+}

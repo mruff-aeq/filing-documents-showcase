@@ -1,0 +1,136 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "T6gDZWThmq",
+      "legalType": "CP"
+    },
+    "incorporationApplication": {
+      "nameRequest": {
+        "legalType": "CP",
+        "nrNumber": "NR L011108",
+        "legalName": "E2E 2608130625 TEST HOUSING COOPERATIVE"
+      },
+      "offices": {
+        "registeredOffice": {
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          }
+        }
+      },
+      "parties": [
+        {
+          "officer": {
+            "firstName": "E2E",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Completing Party",
+              "appointmentDate": "2026-08-13"
+            },
+            {
+              "roleType": "Director",
+              "appointmentDate": "2026-08-13"
+            }
+          ]
+        },
+        {
+          "officer": {
+            "firstName": "DIRECTORTWO",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Director",
+              "appointmentDate": "2026-08-13"
+            }
+          ]
+        },
+        {
+          "officer": {
+            "firstName": "DIRECTORTHREE",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Director",
+              "appointmentDate": "2026-08-13"
+            }
+          ]
+        }
+      ],
+      "contactPoint": {
+        "email": "mark.ruffolo@gov.bc.ca"
+      },
+      "cooperative": {
+        "cooperativeAssociationType": "HC",
+        "rulesFileKey": "COOP-DS0000102138",
+        "rulesFileName": "rules.pdf",
+        "memorandumFileKey": "COOP-DS0000102139",
+        "memorandumFileName": "memorandum.pdf"
+      }
+    }
+  }
+}

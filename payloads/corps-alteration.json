@@ -1,0 +1,44 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000166",
+      "legalType": "BC"
+    },
+    "alteration": {
+      "provisionsRemoved": false,
+      "shareStructure": {
+        "resolutionDates": [
+          "2026-08-13"
+        ],
+        "shareClasses": [
+          {
+            "name": "Class 1 Shares",
+            "priority": 1,
+            "maxNumberOfShares": 600,
+            "parValue": 1,
+            "currency": "CAD",
+            "hasMaximumShares": true,
+            "hasParValue": true,
+            "hasRightsOrRestrictions": true,
+            "series": [
+              {
+                "name": "Series 1 Shares",
+                "priority": 1,
+                "maxNumberOfShares": 600,
+                "hasMaximumShares": true,
+                "hasRightsOrRestrictions": false
+              }
+            ]
+          }
+        ]
+      },
+      "contactPoint": {
+        "email": "no_one@never.get"
+      },
+      "business": {
+        "identifier": "BC3000166",
+        "legalType": "BC"
+      }
+    }
+  }
+}

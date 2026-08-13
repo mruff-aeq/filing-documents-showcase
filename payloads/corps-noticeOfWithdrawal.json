@@ -1,0 +1,13 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000166",
+      "legalType": "BC"
+    },
+    "noticeOfWithdrawal": {
+      "filingId": 3732237,
+      "hasTakenEffect": false,
+      "partOfPoa": false
+    }
+  }
+}

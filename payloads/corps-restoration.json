@@ -1,0 +1,97 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "BC3000164",
+      "legalType": "BC"
+    },
+    "restoration": {
+      "type": "fullRestoration",
+      "nameRequest": {
+        "legalType": "BC",
+        "legalName": "3000164 B.C. LTD."
+      },
+      "approvalType": "courtOrder",
+      "courtOrder": {
+        "fileNumber": "#1234-5678/90",
+        "orderDate": "2021-01-30T09:56:01+08:00",
+        "effectOfOrder": "planOfArrangement",
+        "orderDetails": "A note about order"
+      },
+      "offices": {
+        "registeredOffice": {
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          }
+        },
+        "recordsOffice": {
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          }
+        }
+      },
+      "parties": [
+        {
+          "officer": {
+            "id": 1,
+            "firstName": "Joe",
+            "lastName": "Swanson",
+            "middleName": "P",
+            "email": "joe@email.com",
+            "organizationName": "",
+            "partyType": "person"
+          },
+          "mailingAddress": {
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": "",
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "delivery_address - address line one",
+            "streetAddressAdditional": "",
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "postalCode": "H0H0H0",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Applicant",
+              "appointmentDate": "2026-08-13"
+            }
+          ]
+        }
+      ],
+      "contactPoint": {
+        "email": "no_one@never.get"
+      },
+      "relationships": [
+        "Director"
+      ]
+    }
+  }
+}
