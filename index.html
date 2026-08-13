@@ -261,13 +261,12 @@ function renderGrid() {
         (n, f) => n + f.documents.filter(d => d.stampedOnDownload).length, 0);
       const nStaff = c.filings.reduce(
         (n, f) => n + f.documents.filter(d => isStaffUploaded(d.label)).length, 0);
-      const biz = [...new Set(c.filings.map(f => f.identifier))];
       const rtypes = [...new Set(c.filings.flatMap(f =>
         f.documents.map(d => d.reportType).filter(Boolean)))];
       html += `<div class="card" style="--dot: var(--dot-${cat}); --wash: var(--wash-${cat})"
                     onclick="openCard(${i})">
         <h3>${esc(c.name)}</h3>
-        <div class="biz">${esc(biz.join(', ')) || 'no filing captured'}</div>
+        <div class="biz">${esc(c.description) || 'no filing captured'}</div>
         <div class="row">
           <span class="pill docs">${nDocs} PDF${nDocs === 1 ? '' : 's'}</span>
           ${rtypes.map(t => `<span class="pill rtype tip rt-${t.toLowerCase()}" data-tip="${esc(RT_TIPS[t] || '')}">${esc(t)}</span>`).join('')}
