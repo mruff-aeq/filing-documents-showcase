@@ -1,0 +1,30 @@
+{
+  "filingType": "putBackOn",
+  "legalType": "SP",
+  "status": 403,
+  "captured": "2026-08-13",
+  "response": {
+    "errors": [
+      {
+        "error": "SP does not support put back on filing."
+      }
+    ],
+    "filing": {
+      "business": {
+        "identifier": "FM1169825",
+        "legalType": "SP"
+      },
+      "header": {
+        "accountId": 3040,
+        "authorizationReceived": true,
+        "certifiedBy": "E2E API RUNNER",
+        "date": "2026-08-13",
+        "email": "markruffolocode@gmail.com",
+        "name": "putBackOn"
+      },
+      "putBackOn": {
+        "details": "E2E suite - expected-403 capture"
+      }
+    }
+  }
+}

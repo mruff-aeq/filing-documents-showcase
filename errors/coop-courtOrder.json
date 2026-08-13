@@ -1,0 +1,45 @@
+{
+  "filingType": "courtOrder",
+  "legalType": "CP",
+  "status": 402,
+  "captured": "2026-08-13",
+  "response": {
+    "errors": [
+      {
+        "message": "unable to create invoice for payment."
+      }
+    ],
+    "filing": {
+      "business": {
+        "identifier": "CP1044820",
+        "legalType": "CP"
+      },
+      "courtOrder": {
+        "effectOfOrder": "planOfArrangement",
+        "fileNumber": "#1234-5678/90",
+        "orderDate": "2021-01-30T09:56:01+08:00",
+        "orderDetails": "A note about order"
+      },
+      "header": {
+        "accountId": 3040,
+        "affectedFilings": [],
+        "authorizationReceived": true,
+        "availableOnPaperOnly": false,
+        "certifiedBy": "E2E API RUNNER",
+        "colinIds": [],
+        "comments": [],
+        "date": "2026-08-13T11:33:14.712264+00:00",
+        "deletionLocked": false,
+        "effectiveDate": "2026-08-13T11:33:14.712291+00:00",
+        "email": "markruffolocode@gmail.com",
+        "filingId": 3732265,
+        "inColinOnly": false,
+        "isCorrected": false,
+        "isCorrectionPending": false,
+        "name": "courtOrder",
+        "status": "DRAFT",
+        "submitter": "service-account-entity-service-account"
+      }
+    }
+  }
+}
