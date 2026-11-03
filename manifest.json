@@ -1,49 +1,49 @@
 {
- "generated": "2026-08-13",
- "runDate": "2026-08-13",
+ "generated": "2026-11-03",
+ "runDate": "2026-11-03",
  "businesses": [
   {
    "slot": "A1",
-   "identifier": "BC3000167",
-   "legalName": "3000167 B.C. LTD.",
+   "identifier": "BC3000281",
+   "legalName": "3000281 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732212,
+     "filingId": 3778079,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000167-3732212-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000281-3778079-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107182",
+       "drsId": "DSR0000108453",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000167-3732212-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000281-3778079-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107175",
+       "drsId": "DSR0000108392",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000167-3732212-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000281-3778079-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107177",
+       "drsId": "DSR0000108398",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000167-3732212-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000281-3778079-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -56,46 +56,46 @@
   },
   {
    "slot": "A2",
-   "identifier": "BC3000168",
-   "legalName": "3000168 B.C. LTD.",
+   "identifier": "BC3000282",
+   "legalName": "3000282 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732213,
+     "filingId": 3778081,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000168-3732213-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000282-3778081-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107185",
+       "drsId": "DSR0000108415",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000168-3732213-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000282-3778081-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107178",
+       "drsId": "DSR0000108408",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000168-3732213-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000282-3778081-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107180",
+       "drsId": "DSR0000108412",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000168-3732213-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000282-3778081-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -108,46 +108,46 @@
   },
   {
    "slot": "A3",
-   "identifier": "BC3000169",
-   "legalName": "3000169 B.C. LTD.",
+   "identifier": "BC3000283",
+   "legalName": "3000283 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732214,
+     "filingId": 3778084,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000169-3732214-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000283-3778084-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107187",
+       "drsId": "DSR0000108420",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000169-3732214-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000283-3778084-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107181",
+       "drsId": "DSR0000108411",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000169-3732214-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000283-3778084-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107183",
+       "drsId": "DSR0000108413",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000169-3732214-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000283-3778084-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -160,46 +160,46 @@
   },
   {
    "slot": "A4",
-   "identifier": "BC3000170",
-   "legalName": "3000170 B.C. LTD.",
+   "identifier": "BC3000284",
+   "legalName": "3000284 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732216,
+     "filingId": 3778087,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000170-3732216-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000284-3778087-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107188",
+       "drsId": "DSR0000108421",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000170-3732216-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000284-3778087-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107184",
+       "drsId": "DSR0000108414",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000170-3732216-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000284-3778087-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107186",
+       "drsId": "DSR0000108418",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000170-3732216-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000284-3778087-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -217,23 +217,23 @@
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732241,
+     "filingId": 3778112,
      "type": "annualReport",
      "status": "COMPLETED",
-     "displayName": "Annual Report (2025)",
+     "displayName": "Annual Report (2026)",
      "documents": [
       {
        "label": "legalFilings-annualReport",
-       "path": "documents/BC0789196-3732241-annualReport/legalFilings-annualReport.pdf",
+       "path": "documents/BC0789196-3778112-annualReport/legalFilings-annualReport.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107205",
+       "drsId": "DSR0000108429",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC0789196-3732241-annualReport/receipt.pdf",
+       "path": "documents/BC0789196-3778112-annualReport/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -246,46 +246,46 @@
   },
   {
    "slot": "C1",
-   "identifier": "BC3000162",
-   "legalName": "3000162 B.C. LTD.",
+   "identifier": "BC3000275",
+   "legalName": "3000275 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732203,
+     "filingId": 3778070,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000162-3732203-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000275-3778070-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107164",
+       "drsId": "DSR0000108401",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000162-3732203-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000275-3778070-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107159",
+       "drsId": "DSR0000108383",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000162-3732203-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000275-3778070-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107160",
+       "drsId": "DSR0000108390",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000162-3732203-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000275-3778070-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -295,32 +295,32 @@
      ]
     },
     {
-     "filingId": 3732250,
+     "filingId": 3778106,
      "type": "consentContinuationOut",
      "status": "COMPLETED",
      "displayName": "6-Month Consent to Continue Out",
      "documents": [
       {
        "label": "legalFilings-consentContinuationOut",
-       "path": "documents/BC3000162-3732250-consentContinuationOut/legalFilings-consentContinuationOut.pdf",
+       "path": "documents/BC3000275-3778106-consentContinuationOut/legalFilings-consentContinuationOut.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107214",
+       "drsId": "DSR0000108428",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "letterOfConsent",
-       "path": "documents/BC3000162-3732250-consentContinuationOut/letterOfConsent.pdf",
+       "path": "documents/BC3000275-3778106-consentContinuationOut/letterOfConsent.pdf",
        "source": "drs",
        "reportType": "FILING-3",
-       "drsId": "DSR0000107215",
+       "drsId": "DSR0000108433",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000162-3732250-consentContinuationOut/receipt.pdf",
+       "path": "documents/BC3000275-3778106-consentContinuationOut/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -330,14 +330,14 @@
      ]
     },
     {
-     "filingId": 3732251,
+     "filingId": 3778119,
      "type": "continuationOut",
      "status": "COMPLETED",
      "displayName": "Continuation Out",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/BC3000162-3732251-continuationOut/receipt.pdf",
+       "path": "documents/BC3000275-3778119-continuationOut/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -350,46 +350,46 @@
   },
   {
    "slot": "C2",
-   "identifier": "BC3000163",
-   "legalName": "3000163 B.C. LTD.",
+   "identifier": "BC3000274",
+   "legalName": "3000274 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732205,
+     "filingId": 3778071,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000163-3732205-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000274-3778071-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107168",
+       "drsId": "DSR0000108404",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000163-3732205-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000274-3778071-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107161",
+       "drsId": "DSR0000108394",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000163-3732205-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000274-3778071-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107162",
+       "drsId": "DSR0000108399",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000163-3732205-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000274-3778071-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -399,14 +399,14 @@
      ]
     },
     {
-     "filingId": 3732252,
+     "filingId": 3778109,
      "type": "consentAmalgamationOut",
      "status": "COMPLETED",
      "displayName": "6-Month Consent to Amalgamate Out",
      "documents": [
       {
        "label": "letterOfConsentAmalgamationOut",
-       "path": "documents/BC3000163-3732252-consentAmalgamationOut/letterOfConsentAmalgamationOut.pdf",
+       "path": "documents/BC3000274-3778109-consentAmalgamationOut/letterOfConsentAmalgamationOut.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -415,7 +415,7 @@
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000163-3732252-consentAmalgamationOut/receipt.pdf",
+       "path": "documents/BC3000274-3778109-consentAmalgamationOut/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -425,14 +425,14 @@
      ]
     },
     {
-     "filingId": 3732253,
+     "filingId": 3778122,
      "type": "amalgamationOut",
      "status": "COMPLETED",
      "displayName": "Amalgamation Out",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/BC3000163-3732253-amalgamationOut/receipt.pdf",
+       "path": "documents/BC3000274-3778122-amalgamationOut/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -445,46 +445,46 @@
   },
   {
    "slot": "CI1",
-   "identifier": "C3000174",
-   "legalName": "3000174 B.C. LTD.",
+   "identifier": "C3000286",
+   "legalName": "3000286 B.C. LTD.",
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732257,
+     "filingId": 3778115,
      "type": "continuationIn",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Continuation Application",
      "documents": [
       {
        "label": "certificateOfContinuation",
-       "path": "documents/C3000174-3732257-continuationIn/certificateOfContinuation.pdf",
+       "path": "documents/C3000286-3778115-continuationIn/certificateOfContinuation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107228",
+       "drsId": "DSR0000108454",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-continuationIn",
-       "path": "documents/C3000174-3732257-continuationIn/legalFilings-continuationIn.pdf",
+       "path": "documents/C3000286-3778115-continuationIn/legalFilings-continuationIn.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107226",
+       "drsId": "DSR0000108448",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/C3000174-3732257-continuationIn/noticeOfArticles.pdf",
+       "path": "documents/C3000286-3778115-continuationIn/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107227",
+       "drsId": "DSR0000108451",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/C3000174-3732257-continuationIn/receipt.pdf",
+       "path": "documents/C3000286-3778115-continuationIn/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -493,10 +493,10 @@
       },
       {
        "label": "staticDocuments-1-url",
-       "path": "documents/C3000174-3732257-continuationIn/staticDocuments-1-url.pdf",
+       "path": "documents/C3000286-3778115-continuationIn/staticDocuments-1-url.pdf",
        "source": "drs",
        "reportType": null,
-       "drsId": "DS0000102145",
+       "drsId": "DS0000103920",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       }
@@ -506,55 +506,55 @@
   },
   {
    "slot": "CP1",
-   "identifier": "CP1044820",
-   "legalName": "E2E 2608130625 TEST HOUSING COOPERATIVE",
-   "state": "ACTIVE",
+   "identifier": "CP1044826",
+   "legalName": "E2E 261103135836 TEST HOUSING COOPERATIVE",
+   "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732192,
+     "filingId": 3778082,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/CP1044820-3732192-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/CP1044826-3778082-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107154",
+       "drsId": "DSR0000108423",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "certifiedMemorandum",
-       "path": "documents/CP1044820-3732192-incorporationApplication/certifiedMemorandum.pdf",
+       "path": "documents/CP1044826-3778082-incorporationApplication/certifiedMemorandum.pdf",
        "source": "drs",
        "reportType": null,
-       "drsId": "DS0000102139",
+       "drsId": "DS0000103914",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "certifiedRules",
-       "path": "documents/CP1044820-3732192-incorporationApplication/certifiedRules.pdf",
+       "path": "documents/CP1044826-3778082-incorporationApplication/certifiedRules.pdf",
        "source": "drs",
        "reportType": null,
-       "drsId": "DS0000102138",
+       "drsId": "DS0000103913",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/CP1044820-3732192-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/CP1044826-3778082-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107146",
+       "drsId": "DSR0000108410",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732192-incorporationApplication/receipt.pdf",
+       "path": "documents/CP1044826-3778082-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -564,32 +564,32 @@
      ]
     },
     {
-     "filingId": 3732196,
+     "filingId": 3778090,
      "type": "specialResolution",
      "status": "CORRECTED",
      "displayName": "Special Resolution",
      "documents": [
       {
        "label": "certifiedRules",
-       "path": "documents/CP1044820-3732196-specialResolution/certifiedRules.pdf",
+       "path": "documents/CP1044826-3778090-specialResolution/certifiedRules.pdf",
        "source": "drs",
        "reportType": null,
-       "drsId": "DS0000102140",
+       "drsId": "DS0000103915",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "legalFilings-specialResolution",
-       "path": "documents/CP1044820-3732196-specialResolution/legalFilings-specialResolution.pdf",
+       "path": "documents/CP1044826-3778090-specialResolution/legalFilings-specialResolution.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107145",
+       "drsId": "DSR0000108416",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732196-specialResolution/receipt.pdf",
+       "path": "documents/CP1044826-3778090-specialResolution/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -598,24 +598,24 @@
       },
       {
        "label": "specialResolutionApplication",
-       "path": "documents/CP1044820-3732196-specialResolution/specialResolutionApplication.pdf",
+       "path": "documents/CP1044826-3778090-specialResolution/specialResolutionApplication.pdf",
        "source": "drs",
        "reportType": "FILING-2",
-       "drsId": "DSR0000107150",
+       "drsId": "DSR0000108419",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       }
      ]
     },
     {
-     "filingId": 3732197,
+     "filingId": 3778092,
      "type": "changeOfAddress",
      "status": "COMPLETED",
      "displayName": "Address Change",
      "documents": [
       {
        "label": "legalFilings-changeOfAddress",
-       "path": "documents/CP1044820-3732197-changeOfAddress/legalFilings-changeOfAddress.pdf",
+       "path": "documents/CP1044826-3778092-changeOfAddress/legalFilings-changeOfAddress.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -624,7 +624,7 @@
       },
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732197-changeOfAddress/receipt.pdf",
+       "path": "documents/CP1044826-3778092-changeOfAddress/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -634,14 +634,14 @@
      ]
     },
     {
-     "filingId": 3732198,
+     "filingId": 3778093,
      "type": "changeOfDirectors",
      "status": "COMPLETED",
      "displayName": "Director Change",
      "documents": [
       {
        "label": "legalFilings-changeOfDirectors",
-       "path": "documents/CP1044820-3732198-changeOfDirectors/legalFilings-changeOfDirectors.pdf",
+       "path": "documents/CP1044826-3778093-changeOfDirectors/legalFilings-changeOfDirectors.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -650,7 +650,7 @@
       },
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732198-changeOfDirectors/receipt.pdf",
+       "path": "documents/CP1044826-3778093-changeOfDirectors/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -660,14 +660,14 @@
      ]
     },
     {
-     "filingId": 3732199,
+     "filingId": 3778094,
      "type": "changeOfOfficers",
      "status": "COMPLETED",
      "displayName": "Officer Change",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732199-changeOfOfficers/receipt.pdf",
+       "path": "documents/CP1044826-3778094-changeOfOfficers/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -677,23 +677,23 @@
      ]
     },
     {
-     "filingId": 3732200,
+     "filingId": 3778095,
      "type": "correction",
      "status": "COMPLETED",
      "displayName": "Register Correction Application",
      "documents": [
       {
        "label": "legalFilings-correction",
-       "path": "documents/CP1044820-3732200-correction/legalFilings-correction.pdf",
+       "path": "documents/CP1044826-3778095-correction/legalFilings-correction.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107158",
+       "drsId": "DSR0000108422",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732200-correction/receipt.pdf",
+       "path": "documents/CP1044826-3778095-correction/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -703,28 +703,28 @@
      ]
     },
     {
-     "filingId": 3732201,
+     "filingId": 3778097,
      "type": "registrarsNotation",
      "status": "COMPLETED",
      "displayName": "Registrar's Notation",
      "documents": []
     },
     {
-     "filingId": 3732202,
+     "filingId": 3778098,
      "type": "registrarsOrder",
      "status": "COMPLETED",
      "displayName": "Registrar's Order",
      "documents": []
     },
     {
-     "filingId": 3732206,
+     "filingId": 3778100,
      "type": "adminFreeze",
      "status": "COMPLETED",
      "displayName": "Admin Freeze",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732206-adminFreeze/receipt.pdf",
+       "path": "documents/CP1044826-3778100-adminFreeze/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -734,14 +734,14 @@
      ]
     },
     {
-     "filingId": 3732208,
+     "filingId": 3778101,
      "type": "adminFreeze",
      "status": "COMPLETED",
      "displayName": "Admin Unfreeze",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732208-adminFreeze/receipt.pdf",
+       "path": "documents/CP1044826-3778101-adminFreeze/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -751,50 +751,50 @@
      ]
     },
     {
-     "filingId": 3732210,
+     "filingId": 3778102,
      "type": "dissolution",
      "status": "COMPLETED",
      "displayName": "Voluntary Dissolution",
      "documents": [
       {
        "label": "affidavit",
-       "path": "documents/CP1044820-3732210-dissolution/affidavit.pdf",
+       "path": "documents/CP1044826-3778102-dissolution/affidavit.pdf",
        "source": "drs",
        "reportType": null,
-       "drsId": "DS0000102142",
+       "drsId": "DS0000103917",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "certificateOfDissolution",
-       "path": "documents/CP1044820-3732210-dissolution/certificateOfDissolution.pdf",
+       "path": "documents/CP1044826-3778102-dissolution/certificateOfDissolution.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107171",
+       "drsId": "DSR0000108425",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-dissolution",
-       "path": "documents/CP1044820-3732210-dissolution/legalFilings-dissolution.pdf",
+       "path": "documents/CP1044826-3778102-dissolution/legalFilings-dissolution.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107165",
+       "drsId": "DSR0000108424",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "legalFilings-specialResolution",
-       "path": "documents/CP1044820-3732210-dissolution/legalFilings-specialResolution.pdf",
+       "path": "documents/CP1044826-3778102-dissolution/legalFilings-specialResolution.pdf",
        "source": "drs",
        "reportType": "FILING-2",
-       "drsId": "DSR0000107173",
+       "drsId": "DSR0000108426",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/CP1044820-3732210-dissolution/receipt.pdf",
+       "path": "documents/CP1044826-3778102-dissolution/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -804,7 +804,7 @@
      ]
     },
     {
-     "filingId": 3732215,
+     "filingId": 3778103,
      "type": "putBackOn",
      "status": "COMPLETED",
      "displayName": "Correction - Put Back On",
@@ -813,20 +813,90 @@
    ]
   },
   {
-   "slot": "CPAR",
-   "identifier": "CP3490286",
-   "legalName": "EVE TEST COOP 9270 COOP",
+   "slot": "CPAM",
+   "identifier": "CP1044828",
+   "legalName": "E2E 261103140001 AMALGAMATED HOUSING COOPERATIVE",
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732204,
+     "filingId": 3778117,
+     "type": "amalgamationApplication",
+     "status": "COMPLETED",
+     "displayName": "Amalgamation Application",
+     "documents": [
+      {
+       "label": "certificateOfAmalgamation",
+       "path": "documents/CP1044828-3778117-amalgamationApplication/certificateOfAmalgamation.pdf",
+       "source": "drs",
+       "reportType": "CERT",
+       "drsId": "DSR0000108449",
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "certifiedMemorandum",
+       "path": "documents/CP1044828-3778117-amalgamationApplication/certifiedMemorandum.pdf",
+       "source": "drs",
+       "reportType": null,
+       "drsId": "DS0000103923",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "certifiedRules",
+       "path": "documents/CP1044828-3778117-amalgamationApplication/certifiedRules.pdf",
+       "source": "drs",
+       "reportType": null,
+       "drsId": "DS0000103922",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "legalFilings-amalgamationApplication",
+       "path": "documents/CP1044828-3778117-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000108442",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/CP1044828-3778117-amalgamationApplication/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "specialResolution",
+       "path": "documents/CP1044828-3778117-amalgamationApplication/specialResolution.pdf",
+       "source": "drs",
+       "reportType": "FILING-2",
+       "drsId": "DSR0000108452",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slot": "CPAR",
+   "identifier": "CP3490288",
+   "legalName": "EVE TEST COOP 9270 3 COOP",
+   "state": "ACTIVE",
+   "filings": [
+    {
+     "filingId": 3778099,
      "type": "annualReport",
      "status": "COMPLETED",
-     "displayName": "Annual Report (2025)",
+     "displayName": "Annual Report (2022)",
      "documents": [
       {
        "label": "legalFilings-annualReport",
-       "path": "documents/CP3490286-3732204-annualReport/legalFilings-annualReport.pdf",
+       "path": "documents/CP3490288-3778099-annualReport/legalFilings-annualReport.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -835,7 +905,7 @@
       },
       {
        "label": "receipt",
-       "path": "documents/CP3490286-3732204-annualReport/receipt.pdf",
+       "path": "documents/CP3490288-3778099-annualReport/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -848,46 +918,46 @@
   },
   {
    "slot": "D1",
-   "identifier": "BC3000164",
-   "legalName": "3000164 B.C. LTD.",
+   "identifier": "BC3000276",
+   "legalName": "3000276 B.C. LTD.",
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732207,
+     "filingId": 3778072,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000164-3732207-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000276-3778072-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107172",
+       "drsId": "DSR0000108403",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000164-3732207-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000276-3778072-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107163",
+       "drsId": "DSR0000108388",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000164-3732207-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000276-3778072-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107166",
+       "drsId": "DSR0000108397",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000164-3732207-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000276-3778072-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -897,32 +967,32 @@
      ]
     },
     {
-     "filingId": 3732246,
+     "filingId": 3778108,
      "type": "dissolution",
      "status": "COMPLETED",
      "displayName": "Voluntary Dissolution",
      "documents": [
       {
        "label": "certificateOfDissolution",
-       "path": "documents/BC3000164-3732246-dissolution/certificateOfDissolution.pdf",
+       "path": "documents/BC3000276-3778108-dissolution/certificateOfDissolution.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107210",
+       "drsId": "DSR0000108438",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-dissolution",
-       "path": "documents/BC3000164-3732246-dissolution/legalFilings-dissolution.pdf",
+       "path": "documents/BC3000276-3778108-dissolution/legalFilings-dissolution.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107209",
+       "drsId": "DSR0000108432",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000164-3732246-dissolution/receipt.pdf",
+       "path": "documents/BC3000276-3778108-dissolution/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -932,41 +1002,41 @@
      ]
     },
     {
-     "filingId": 3732247,
+     "filingId": 3778125,
      "type": "restoration",
      "status": "COMPLETED",
      "displayName": "Full Restoration Application",
      "documents": [
       {
        "label": "certificateOfRestoration",
-       "path": "documents/BC3000164-3732247-restoration/certificateOfRestoration.pdf",
+       "path": "documents/BC3000276-3778125-restoration/certificateOfRestoration.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107213",
+       "drsId": "DSR0000108455",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-restoration",
-       "path": "documents/BC3000164-3732247-restoration/legalFilings-restoration.pdf",
+       "path": "documents/BC3000276-3778125-restoration/legalFilings-restoration.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107211",
+       "drsId": "DSR0000108443",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000164-3732247-restoration/noticeOfArticles.pdf",
+       "path": "documents/BC3000276-3778125-restoration/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107212",
+       "drsId": "DSR0000108446",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000164-3732247-restoration/receipt.pdf",
+       "path": "documents/BC3000276-3778125-restoration/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -976,14 +1046,14 @@
      ]
     },
     {
-     "filingId": 3732248,
+     "filingId": 3778128,
      "type": "putBackOff",
      "status": "COMPLETED",
      "displayName": "Correction - Put Back Off",
      "documents": []
     },
     {
-     "filingId": 3732249,
+     "filingId": 3778132,
      "type": "putBackOn",
      "status": "COMPLETED",
      "displayName": "Correction - Put Back On",
@@ -993,28 +1063,28 @@
   },
   {
    "slot": "FM1",
-   "identifier": "FM1169825",
+   "identifier": "FM1169836",
    "legalName": "E2E RUNNER",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732217,
+     "filingId": 3778069,
      "type": "registration",
      "status": "CORRECTED",
      "displayName": "BC Sole Proprietorship Registration",
      "documents": [
       {
        "label": "legalFilings-registration",
-       "path": "documents/FM1169825-3732217-registration/legalFilings-registration.pdf",
-       "source": "drs",
-       "reportType": "FILING",
-       "drsId": "DSR0000107189",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
+       "path": "documents/FM1169836-3778069-registration/legalFilings-registration.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": true
       },
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732217-registration/receipt.pdf",
+       "path": "documents/FM1169836-3778069-registration/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1024,32 +1094,32 @@
      ]
     },
     {
-     "filingId": 3732218,
+     "filingId": 3778076,
      "type": "changeOfRegistration",
      "status": "COMPLETED",
      "displayName": "Change of Registration Application",
      "documents": [
       {
        "label": "amendedRegistrationStatement",
-       "path": "documents/FM1169825-3732218-changeOfRegistration/amendedRegistrationStatement.pdf",
+       "path": "documents/FM1169836-3778076-changeOfRegistration/amendedRegistrationStatement.pdf",
        "source": "drs",
        "reportType": "FILING-2",
-       "drsId": "DSR0000107191",
+       "drsId": "DSR0000108389",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "legalFilings-changeOfRegistration",
-       "path": "documents/FM1169825-3732218-changeOfRegistration/legalFilings-changeOfRegistration.pdf",
+       "path": "documents/FM1169836-3778076-changeOfRegistration/legalFilings-changeOfRegistration.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107190",
+       "drsId": "DSR0000108382",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732218-changeOfRegistration/receipt.pdf",
+       "path": "documents/FM1169836-3778076-changeOfRegistration/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1059,39 +1129,39 @@
      ]
     },
     {
-     "filingId": 3732219,
+     "filingId": 3778078,
      "type": "conversion",
      "status": "COMPLETED",
      "displayName": "Record Conversion",
      "documents": []
     },
     {
-     "filingId": 3732221,
+     "filingId": 3778080,
      "type": "correction",
      "status": "COMPLETED",
      "displayName": "Register Correction Application",
      "documents": [
       {
        "label": "correctedRegistrationStatement",
-       "path": "documents/FM1169825-3732221-correction/correctedRegistrationStatement.pdf",
+       "path": "documents/FM1169836-3778080-correction/correctedRegistrationStatement.pdf",
        "source": "drs",
        "reportType": "FILING-2",
-       "drsId": "DSR0000107195",
+       "drsId": "DSR0000108395",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "legalFilings-correction",
-       "path": "documents/FM1169825-3732221-correction/legalFilings-correction.pdf",
+       "path": "documents/FM1169836-3778080-correction/legalFilings-correction.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107193",
+       "drsId": "DSR0000108387",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732221-correction/receipt.pdf",
+       "path": "documents/FM1169836-3778080-correction/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1101,14 +1171,14 @@
      ]
     },
     {
-     "filingId": 3732222,
+     "filingId": 3778083,
      "type": "courtOrder",
      "status": "COMPLETED",
      "displayName": "Court Order",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732222-courtOrder/receipt.pdf",
+       "path": "documents/FM1169836-3778083-courtOrder/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1118,28 +1188,28 @@
      ]
     },
     {
-     "filingId": 3732223,
+     "filingId": 3778085,
      "type": "registrarsNotation",
      "status": "COMPLETED",
      "displayName": "Registrar's Notation",
      "documents": []
     },
     {
-     "filingId": 3732224,
+     "filingId": 3778086,
      "type": "registrarsOrder",
      "status": "COMPLETED",
      "displayName": "Registrar's Order",
      "documents": []
     },
     {
-     "filingId": 3732226,
+     "filingId": 3778088,
      "type": "adminFreeze",
      "status": "COMPLETED",
      "displayName": "Admin Freeze",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732226-adminFreeze/receipt.pdf",
+       "path": "documents/FM1169836-3778088-adminFreeze/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1149,14 +1219,14 @@
      ]
     },
     {
-     "filingId": 3732228,
+     "filingId": 3778089,
      "type": "adminFreeze",
      "status": "COMPLETED",
      "displayName": "Admin Unfreeze",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732228-adminFreeze/receipt.pdf",
+       "path": "documents/FM1169836-3778089-adminFreeze/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1166,23 +1236,23 @@
      ]
     },
     {
-     "filingId": 3732230,
+     "filingId": 3778091,
      "type": "dissolution",
      "status": "COMPLETED",
      "displayName": "Statement of Dissolution",
      "documents": [
       {
        "label": "legalFilings-dissolution",
-       "path": "documents/FM1169825-3732230-dissolution/legalFilings-dissolution.pdf",
+       "path": "documents/FM1169836-3778091-dissolution/legalFilings-dissolution.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107198",
+       "drsId": "DSR0000108417",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/FM1169825-3732230-dissolution/receipt.pdf",
+       "path": "documents/FM1169836-3778091-dissolution/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1195,46 +1265,46 @@
   },
   {
    "slot": "L1",
-   "identifier": "BC3000165",
-   "legalName": "3000165 B.C. LTD.",
+   "identifier": "BC3000277",
+   "legalName": "3000277 B.C. LTD.",
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732209,
+     "filingId": 3778073,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000165-3732209-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000277-3778073-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107176",
+       "drsId": "DSR0000108400",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000165-3732209-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000277-3778073-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107167",
+       "drsId": "DSR0000108384",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000165-3732209-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000277-3778073-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107169",
+       "drsId": "DSR0000108391",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000165-3732209-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000277-3778073-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1244,40 +1314,14 @@
      ]
     },
     {
-     "filingId": 3732244,
+     "filingId": 3778107,
      "type": "changeOfReceivers",
      "status": "COMPLETED",
      "displayName": "Notice of Appointment of Receiver or Receiver Manager",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/BC3000165-3732244-changeOfReceivers/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732245,
-     "type": "changeOfLiquidators",
-     "status": "COMPLETED",
-     "displayName": "Statement of Intent to Liquidate",
-     "documents": [
-      {
-       "label": "legalFilings-changeOfLiquidators",
-       "path": "documents/BC3000165-3732245-changeOfLiquidators/legalFilings-changeOfLiquidators.pdf",
-       "source": "drs",
-       "reportType": "FILING",
-       "drsId": "DSR0000107208",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000165-3732245-changeOfLiquidators/receipt.pdf",
+       "path": "documents/BC3000277-3778107-changeOfReceivers/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1290,46 +1334,46 @@
   },
   {
    "slot": "R1",
-   "identifier": "BC3000171",
-   "legalName": "3000171 B.C. LTD.",
+   "identifier": "BC3000285",
+   "legalName": "3000285 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732254,
+     "filingId": 3778111,
      "type": "amalgamationApplication",
      "status": "COMPLETED",
      "displayName": "Amalgamation Application (Regular)",
      "documents": [
       {
        "label": "certificateOfAmalgamation",
-       "path": "documents/BC3000171-3732254-amalgamationApplication/certificateOfAmalgamation.pdf",
+       "path": "documents/BC3000285-3778111-amalgamationApplication/certificateOfAmalgamation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107219",
+       "drsId": "DSR0000108440",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-amalgamationApplication",
-       "path": "documents/BC3000171-3732254-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
+       "path": "documents/BC3000285-3778111-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107217",
+       "drsId": "DSR0000108434",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000171-3732254-amalgamationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000285-3778111-amalgamationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107218",
+       "drsId": "DSR0000108437",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000171-3732254-amalgamationApplication/receipt.pdf",
+       "path": "documents/BC3000285-3778111-amalgamationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1342,46 +1386,46 @@
   },
   {
    "slot": "R2",
-   "identifier": "BC3000172",
-   "legalName": "3000171 B.C. LTD.",
+   "identifier": "BC3000287",
+   "legalName": "3000285 B.C. LTD.",
    "state": "HISTORICAL",
    "filings": [
     {
-     "filingId": 3732255,
+     "filingId": 3778134,
      "type": "amalgamationApplication",
      "status": "COMPLETED",
      "displayName": "Amalgamation Application Short-form (Vertical)",
      "documents": [
       {
        "label": "certificateOfAmalgamation",
-       "path": "documents/BC3000172-3732255-amalgamationApplication/certificateOfAmalgamation.pdf",
+       "path": "documents/BC3000287-3778134-amalgamationApplication/certificateOfAmalgamation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107224",
+       "drsId": "DSR0000108461",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-amalgamationApplication",
-       "path": "documents/BC3000172-3732255-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
+       "path": "documents/BC3000287-3778134-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107220",
+       "drsId": "DSR0000108459",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000172-3732255-amalgamationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000287-3778134-amalgamationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107222",
+       "drsId": "DSR0000108460",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000172-3732255-amalgamationApplication/receipt.pdf",
+       "path": "documents/BC3000287-3778134-amalgamationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1394,46 +1438,46 @@
   },
   {
    "slot": "R3",
-   "identifier": "BC3000173",
-   "legalName": "3000171 B.C. LTD.",
+   "identifier": "BC3000288",
+   "legalName": "3000285 B.C. LTD.",
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732256,
+     "filingId": 3778135,
      "type": "amalgamationApplication",
      "status": "COMPLETED",
      "displayName": "Amalgamation Application Short-form (Horizontal)",
      "documents": [
       {
        "label": "certificateOfAmalgamation",
-       "path": "documents/BC3000173-3732256-amalgamationApplication/certificateOfAmalgamation.pdf",
+       "path": "documents/BC3000288-3778135-amalgamationApplication/certificateOfAmalgamation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107225",
+       "drsId": "DSR0000108464",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-amalgamationApplication",
-       "path": "documents/BC3000173-3732256-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
+       "path": "documents/BC3000288-3778135-amalgamationApplication/legalFilings-amalgamationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107221",
+       "drsId": "DSR0000108462",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000173-3732256-amalgamationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000288-3778135-amalgamationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107223",
+       "drsId": "DSR0000108463",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000173-3732256-amalgamationApplication/receipt.pdf",
+       "path": "documents/BC3000288-3778135-amalgamationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1446,46 +1490,46 @@
   },
   {
    "slot": "W1",
-   "identifier": "BC3000166",
-   "legalName": "3000166 B.C. LTD.",
+   "identifier": "BC3000278",
+   "legalName": "3000278 B.C. LTD.",
    "state": "ACTIVE",
    "filings": [
     {
-     "filingId": 3732211,
+     "filingId": 3778074,
      "type": "incorporationApplication",
      "status": "COMPLETED",
      "displayName": "BC Limited Company Incorporation Application",
      "documents": [
       {
        "label": "certificateOfIncorporation",
-       "path": "documents/BC3000166-3732211-incorporationApplication/certificateOfIncorporation.pdf",
+       "path": "documents/BC3000278-3778074-incorporationApplication/certificateOfIncorporation.pdf",
        "source": "drs",
        "reportType": "CERT",
-       "drsId": "DSR0000107179",
+       "drsId": "DSR0000108407",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "legalFilings-incorporationApplication",
-       "path": "documents/BC3000166-3732211-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "path": "documents/BC3000278-3778074-incorporationApplication/legalFilings-incorporationApplication.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107170",
+       "drsId": "DSR0000108385",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000166-3732211-incorporationApplication/noticeOfArticles.pdf",
+       "path": "documents/BC3000278-3778074-incorporationApplication/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107174",
+       "drsId": "DSR0000108405",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732211-incorporationApplication/receipt.pdf",
+       "path": "documents/BC3000278-3778074-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1495,32 +1539,32 @@
      ]
     },
     {
-     "filingId": 3732220,
+     "filingId": 3778105,
      "type": "changeOfDirectors",
      "status": "COMPLETED",
      "displayName": "Director Change",
      "documents": [
       {
        "label": "legalFilings-changeOfDirectors",
-       "path": "documents/BC3000166-3732220-changeOfDirectors/legalFilings-changeOfDirectors.pdf",
+       "path": "documents/BC3000278-3778105-changeOfDirectors/legalFilings-changeOfDirectors.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107192",
+       "drsId": "DSR0000108430",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "noticeOfArticles",
-       "path": "documents/BC3000166-3732220-changeOfDirectors/noticeOfArticles.pdf",
+       "path": "documents/BC3000278-3778105-changeOfDirectors/noticeOfArticles.pdf",
        "source": "drs",
        "reportType": "NOA",
-       "drsId": "DSR0000107194",
+       "drsId": "DSR0000108435",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732220-changeOfDirectors/receipt.pdf",
+       "path": "documents/BC3000278-3778105-changeOfDirectors/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1530,66 +1574,14 @@
      ]
     },
     {
-     "filingId": 3732225,
-     "type": "changeOfOfficers",
-     "status": "COMPLETED",
-     "displayName": "Officer Change",
-     "documents": [
-      {
-       "label": "receipt",
-       "path": "documents/BC3000166-3732225-changeOfOfficers/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732227,
-     "type": "alteration",
-     "status": "COMPLETED",
-     "displayName": "Alteration",
-     "documents": [
-      {
-       "label": "legalFilings-alteration",
-       "path": "documents/BC3000166-3732227-alteration/legalFilings-alteration.pdf",
-       "source": "drs",
-       "reportType": "FILING",
-       "drsId": "DSR0000107196",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
-      },
-      {
-       "label": "noticeOfArticles",
-       "path": "documents/BC3000166-3732227-alteration/noticeOfArticles.pdf",
-       "source": "drs",
-       "reportType": "NOA",
-       "drsId": "DSR0000107199",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000166-3732227-alteration/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732229,
+     "filingId": 3778120,
      "type": "agmExtension",
      "status": "COMPLETED",
      "displayName": "Request for AGM Extension",
      "documents": [
       {
        "label": "letterOfAgmExtension",
-       "path": "documents/BC3000166-3732229-agmExtension/letterOfAgmExtension.pdf",
+       "path": "documents/BC3000278-3778120-agmExtension/letterOfAgmExtension.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1598,7 +1590,7 @@
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732229-agmExtension/receipt.pdf",
+       "path": "documents/BC3000278-3778120-agmExtension/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1608,40 +1600,14 @@
      ]
     },
     {
-     "filingId": 3732231,
-     "type": "agmLocationChange",
-     "status": "COMPLETED",
-     "displayName": "AGM Location Change",
-     "documents": [
-      {
-       "label": "letterOfAgmLocationChange",
-       "path": "documents/BC3000166-3732231-agmLocationChange/letterOfAgmLocationChange.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": true
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000166-3732231-agmLocationChange/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732232,
+     "filingId": 3778123,
      "type": "courtOrder",
-     "status": "CORRECTED",
+     "status": "COMPLETED",
      "displayName": "Court Order",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732232-courtOrder/receipt.pdf",
+       "path": "documents/BC3000278-3778123-courtOrder/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1651,46 +1617,32 @@
      ]
     },
     {
-     "filingId": 3732233,
-     "type": "registrarsNotation",
-     "status": "COMPLETED",
-     "displayName": "Registrar's Notation",
-     "documents": []
-    },
-    {
-     "filingId": 3732234,
-     "type": "registrarsOrder",
-     "status": "COMPLETED",
-     "displayName": "Registrar's Order",
-     "documents": []
-    },
-    {
-     "filingId": 3732235,
+     "filingId": 3778127,
      "type": "consentContinuationOut",
      "status": "COMPLETED",
      "displayName": "6-Month Consent to Continue Out",
      "documents": [
       {
        "label": "legalFilings-consentContinuationOut",
-       "path": "documents/BC3000166-3732235-consentContinuationOut/legalFilings-consentContinuationOut.pdf",
+       "path": "documents/BC3000278-3778127-consentContinuationOut/legalFilings-consentContinuationOut.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107201",
+       "drsId": "DSR0000108445",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "letterOfConsent",
-       "path": "documents/BC3000166-3732235-consentContinuationOut/letterOfConsent.pdf",
+       "path": "documents/BC3000278-3778127-consentContinuationOut/letterOfConsent.pdf",
        "source": "drs",
        "reportType": "FILING-3",
-       "drsId": "DSR0000107202",
+       "drsId": "DSR0000108447",
        "stampedOnDownload": false,
        "bakedRegistrarSignature": true
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732235-consentContinuationOut/receipt.pdf",
+       "path": "documents/BC3000278-3778127-consentContinuationOut/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1700,92 +1652,14 @@
      ]
     },
     {
-     "filingId": 3732236,
-     "type": "consentAmalgamationOut",
-     "status": "COMPLETED",
-     "displayName": "6-Month Consent to Amalgamate Out",
-     "documents": [
-      {
-       "label": "letterOfConsentAmalgamationOut",
-       "path": "documents/BC3000166-3732236-consentAmalgamationOut/letterOfConsentAmalgamationOut.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": true
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000166-3732236-consentAmalgamationOut/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732237,
-     "type": "changeOfAddress",
-     "status": "WITHDRAWN",
-     "displayName": "Address Change",
-     "documents": [
-      {
-       "label": "legalFilings-changeOfAddress",
-       "path": "documents/BC3000166-3732237-changeOfAddress/legalFilings-changeOfAddress.pdf",
-       "source": "drs",
-       "reportType": "FILING",
-       "drsId": "DSR0000107207",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000166-3732237-changeOfAddress/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732238,
-     "type": "noticeOfWithdrawal",
-     "status": "COMPLETED",
-     "displayName": "Notice of Withdrawal",
-     "documents": [
-      {
-       "label": "legalFilings-noticeOfWithdrawal",
-       "path": "documents/BC3000166-3732238-noticeOfWithdrawal/legalFilings-noticeOfWithdrawal.pdf",
-       "source": "drs",
-       "reportType": "FILING",
-       "drsId": "DSR0000107204",
-       "stampedOnDownload": true,
-       "bakedRegistrarSignature": false
-      },
-      {
-       "label": "receipt",
-       "path": "documents/BC3000166-3732238-noticeOfWithdrawal/receipt.pdf",
-       "source": "generated",
-       "reportType": null,
-       "drsId": null,
-       "stampedOnDownload": false,
-       "bakedRegistrarSignature": false
-      }
-     ]
-    },
-    {
-     "filingId": 3732239,
+     "filingId": 3778129,
      "type": "adminFreeze",
      "status": "COMPLETED",
      "displayName": "Admin Freeze",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732239-adminFreeze/receipt.pdf",
+       "path": "documents/BC3000278-3778129-adminFreeze/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1795,14 +1669,66 @@
      ]
     },
     {
-     "filingId": 3732240,
+     "filingId": 3778131,
      "type": "adminFreeze",
      "status": "COMPLETED",
      "displayName": "Admin Unfreeze",
      "documents": [
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732240-adminFreeze/receipt.pdf",
+       "path": "documents/BC3000278-3778131-adminFreeze/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slot": "W2",
+   "identifier": "BC3000279",
+   "legalName": "3000279 B.C. LTD.",
+   "state": "ACTIVE",
+   "filings": [
+    {
+     "filingId": 3778075,
+     "type": "incorporationApplication",
+     "status": "COMPLETED",
+     "displayName": "BC Limited Company Incorporation Application",
+     "documents": [
+      {
+       "label": "certificateOfIncorporation",
+       "path": "documents/BC3000279-3778075-incorporationApplication/certificateOfIncorporation.pdf",
+       "source": "drs",
+       "reportType": "CERT",
+       "drsId": "DSR0000108409",
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "legalFilings-incorporationApplication",
+       "path": "documents/BC3000279-3778075-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000108393",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "noticeOfArticles",
+       "path": "documents/BC3000279-3778075-incorporationApplication/noticeOfArticles.pdf",
+       "source": "drs",
+       "reportType": "NOA",
+       "drsId": "DSR0000108406",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000279-3778075-incorporationApplication/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,
@@ -1812,23 +1738,245 @@
      ]
     },
     {
-     "filingId": 3732243,
+     "filingId": 3778110,
+     "type": "changeOfOfficers",
+     "status": "CORRECTED",
+     "displayName": "Officer Change",
+     "documents": [
+      {
+       "label": "receipt",
+       "path": "documents/BC3000279-3778110-changeOfOfficers/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3778121,
+     "type": "agmLocationChange",
+     "status": "COMPLETED",
+     "displayName": "AGM Location Change",
+     "documents": [
+      {
+       "label": "letterOfAgmLocationChange",
+       "path": "documents/BC3000279-3778121-agmLocationChange/letterOfAgmLocationChange.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000279-3778121-agmLocationChange/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3778124,
+     "type": "registrarsNotation",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Notation",
+     "documents": []
+    },
+    {
+     "filingId": 3778126,
+     "type": "consentAmalgamationOut",
+     "status": "COMPLETED",
+     "displayName": "6-Month Consent to Amalgamate Out",
+     "documents": [
+      {
+       "label": "letterOfConsentAmalgamationOut",
+       "path": "documents/BC3000279-3778126-consentAmalgamationOut/letterOfConsentAmalgamationOut.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000279-3778126-consentAmalgamationOut/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3778130,
      "type": "correction",
      "status": "COMPLETED",
      "displayName": "Register Correction Application",
      "documents": [
       {
        "label": "legalFilings-correction",
-       "path": "documents/BC3000166-3732243-correction/legalFilings-correction.pdf",
+       "path": "documents/BC3000279-3778130-correction/legalFilings-correction.pdf",
        "source": "drs",
        "reportType": "FILING",
-       "drsId": "DSR0000107206",
+       "drsId": "DSR0000108450",
        "stampedOnDownload": true,
        "bakedRegistrarSignature": false
       },
       {
        "label": "receipt",
-       "path": "documents/BC3000166-3732243-correction/receipt.pdf",
+       "path": "documents/BC3000279-3778130-correction/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slot": "W3",
+   "identifier": "BC3000280",
+   "legalName": "3000280 B.C. LTD.",
+   "state": "ACTIVE",
+   "filings": [
+    {
+     "filingId": 3778077,
+     "type": "incorporationApplication",
+     "status": "COMPLETED",
+     "displayName": "BC Limited Company Incorporation Application",
+     "documents": [
+      {
+       "label": "certificateOfIncorporation",
+       "path": "documents/BC3000280-3778077-incorporationApplication/certificateOfIncorporation.pdf",
+       "source": "drs",
+       "reportType": "CERT",
+       "drsId": "DSR0000108402",
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": true
+      },
+      {
+       "label": "legalFilings-incorporationApplication",
+       "path": "documents/BC3000280-3778077-incorporationApplication/legalFilings-incorporationApplication.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000108386",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "noticeOfArticles",
+       "path": "documents/BC3000280-3778077-incorporationApplication/noticeOfArticles.pdf",
+       "source": "drs",
+       "reportType": "NOA",
+       "drsId": "DSR0000108396",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000280-3778077-incorporationApplication/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3778113,
+     "type": "registrarsOrder",
+     "status": "COMPLETED",
+     "displayName": "Registrar's Order",
+     "documents": []
+    },
+    {
+     "filingId": 3778114,
+     "type": "changeOfAddress",
+     "status": "WITHDRAWN",
+     "displayName": "Address Change",
+     "documents": [
+      {
+       "label": "legalFilings-changeOfAddress",
+       "path": "documents/BC3000280-3778114-changeOfAddress/legalFilings-changeOfAddress.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000280-3778114-changeOfAddress/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3778116,
+     "type": "noticeOfWithdrawal",
+     "status": "COMPLETED",
+     "displayName": "Notice of Withdrawal",
+     "documents": [
+      {
+       "label": "legalFilings-noticeOfWithdrawal",
+       "path": "documents/BC3000280-3778116-noticeOfWithdrawal/legalFilings-noticeOfWithdrawal.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000108436",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000280-3778116-noticeOfWithdrawal/receipt.pdf",
+       "source": "generated",
+       "reportType": null,
+       "drsId": null,
+       "stampedOnDownload": false,
+       "bakedRegistrarSignature": false
+      }
+     ]
+    },
+    {
+     "filingId": 3778133,
+     "type": "alteration",
+     "status": "COMPLETED",
+     "displayName": "Alteration",
+     "documents": [
+      {
+       "label": "legalFilings-alteration",
+       "path": "documents/BC3000280-3778133-alteration/legalFilings-alteration.pdf",
+       "source": "drs",
+       "reportType": "FILING",
+       "drsId": "DSR0000108457",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "noticeOfArticles",
+       "path": "documents/BC3000280-3778133-alteration/noticeOfArticles.pdf",
+       "source": "drs",
+       "reportType": "NOA",
+       "drsId": "DSR0000108458",
+       "stampedOnDownload": true,
+       "bakedRegistrarSignature": false
+      },
+      {
+       "label": "receipt",
+       "path": "documents/BC3000280-3778133-alteration/receipt.pdf",
        "source": "generated",
        "reportType": null,
        "drsId": null,

@@ -1,0 +1,13 @@
+{
+  "filingType": "changeOfLiquidators",
+  "legalType": "BC",
+  "status": 403,
+  "captured": "2026-11-03",
+  "response": {
+    "message": [
+      {
+        "message": "Permission Denied - changeOfLiquidators.intentToLiquidate filing is currently not available for this user and/or account."
+      }
+    ]
+  }
+}

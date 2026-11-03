@@ -9,47 +9,56 @@
       "amalgamatingBusinesses": [
         {
           "role": "primary",
-          "identifier": "BC3000172"
+          "identifier": "BC3000287"
         },
         {
           "role": "amalgamating",
-          "identifier": "BC3000170"
+          "identifier": "BC3000284"
         }
       ],
       "nameRequest": {
-        "legalType": "BC"
+        "legalType": "BC",
+        "legalName": "3000285 B.C. LTD."
       },
       "offices": {
-        "registeredOffice": {
-          "deliveryAddress": {
-            "streetAddress": "delivery_address - address line one",
-            "addressCity": "delivery_address city",
-            "addressCountry": "CA",
-            "postalCode": "H0H0H0",
-            "addressRegion": "BC"
-          },
-          "mailingAddress": {
-            "streetAddress": "mailing_address - address line one",
-            "addressCity": "mailing_address city",
-            "addressCountry": "CA",
-            "postalCode": "H0H0H0",
-            "addressRegion": "BC"
-          }
-        },
         "recordsOffice": {
           "deliveryAddress": {
-            "streetAddress": "delivery_address - address line one",
             "addressCity": "delivery_address city",
             "addressCountry": "CA",
+            "addressRegion": "BC",
+            "deliveryInstructions": "",
             "postalCode": "H0H0H0",
-            "addressRegion": "BC"
+            "streetAddress": "delivery_address - address line one",
+            "streetAddressAdditional": ""
           },
           "mailingAddress": {
-            "streetAddress": "mailing_address - address line one",
             "addressCity": "mailing_address city",
             "addressCountry": "CA",
+            "addressRegion": "BC",
+            "deliveryInstructions": "",
             "postalCode": "H0H0H0",
-            "addressRegion": "BC"
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": ""
+          }
+        },
+        "registeredOffice": {
+          "deliveryAddress": {
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "addressRegion": "BC",
+            "deliveryInstructions": "",
+            "postalCode": "H0H0H0",
+            "streetAddress": "delivery_address - address line one",
+            "streetAddressAdditional": ""
+          },
+          "mailingAddress": {
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "addressRegion": "BC",
+            "deliveryInstructions": "",
+            "postalCode": "H0H0H0",
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": ""
           }
         }
       },
@@ -60,35 +69,53 @@
       "parties": [
         {
           "officer": {
-            "id": 1,
-            "firstName": "Joe",
-            "lastName": "Swanson",
-            "middleName": "P",
-            "email": "joe@email.com",
-            "organizationName": "",
-            "partyType": "person"
+            "firstName": "E2E",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
           },
           "mailingAddress": {
-            "streetAddress": "mailing_address - address line one",
-            "streetAddressAdditional": "",
-            "addressCity": "mailing_address city",
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
             "addressCountry": "CA",
-            "postalCode": "H0H0H0",
-            "addressRegion": "BC"
-          },
-          "deliveryAddress": {
-            "streetAddress": "delivery_address - address line one",
-            "streetAddressAdditional": "",
-            "addressCity": "delivery_address city",
-            "addressCountry": "CA",
-            "postalCode": "H0H0H0",
+            "postalCode": "V8V 1V1",
             "addressRegion": "BC"
           },
           "roles": [
             {
               "roleType": "Completing Party",
-              "appointmentDate": "2018-01-01"
-            },
+              "appointmentDate": "2026-11-03"
+            }
+          ]
+        },
+        {
+          "officer": {
+            "email": "joe@email.com",
+            "firstName": "JOE",
+            "lastName": "SWANSON",
+            "middleInitial": "P",
+            "partyType": "person"
+          },
+          "deliveryAddress": {
+            "addressCity": "delivery_address city",
+            "addressCountry": "CA",
+            "addressRegion": "BC",
+            "deliveryInstructions": "",
+            "postalCode": "H0H0H0",
+            "streetAddress": "delivery_address - address line one",
+            "streetAddressAdditional": ""
+          },
+          "mailingAddress": {
+            "addressCity": "mailing_address city",
+            "addressCountry": "CA",
+            "addressRegion": "BC",
+            "deliveryInstructions": "",
+            "postalCode": "H0H0H0",
+            "streetAddress": "mailing_address - address line one",
+            "streetAddressAdditional": ""
+          },
+          "roles": [
             {
               "roleType": "Director",
               "appointmentDate": "2018-01-01"
@@ -96,6 +123,50 @@
           ]
         }
       ],
+      "shareStructure": {
+        "shareClasses": [
+          {
+            "currency": "CAD",
+            "currencyAdditional": null,
+            "hasMaximumShares": true,
+            "hasParValue": true,
+            "hasRightsOrRestrictions": true,
+            "maxNumberOfShares": 100,
+            "name": "Class 1 Shares",
+            "parValue": 10.0,
+            "priority": 1,
+            "series": [
+              {
+                "hasMaximumShares": true,
+                "hasRightsOrRestrictions": false,
+                "maxNumberOfShares": 50,
+                "name": "Series 1 Shares",
+                "priority": 1
+              },
+              {
+                "hasMaximumShares": true,
+                "hasRightsOrRestrictions": false,
+                "maxNumberOfShares": 100,
+                "name": "Series 2 Shares",
+                "priority": 2
+              }
+            ]
+          },
+          {
+            "currency": null,
+            "currencyAdditional": null,
+            "hasMaximumShares": false,
+            "hasParValue": false,
+            "hasRightsOrRestrictions": true,
+            "maxNumberOfShares": null,
+            "name": "Class 2 Shares",
+            "parValue": null,
+            "priority": 1,
+            "series": []
+          }
+        ],
+        "resolutionDates": []
+      },
       "courtApproval": false
     }
   }

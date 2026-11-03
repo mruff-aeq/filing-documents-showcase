@@ -1,7 +1,7 @@
 {
   "filing": {
     "business": {
-      "identifier": "CP3490286",
+      "identifier": "CP3490288",
       "legalType": "CP"
     },
     "annualReport": {
@@ -115,8 +115,8 @@
           }
         }
       },
-      "annualReportDate": "2025-10-14",
-      "annualGeneralMeetingDate": "2025-10-14"
+      "annualReportDate": "2022-10-14",
+      "annualGeneralMeetingDate": "2022-10-14"
     }
   }
 }

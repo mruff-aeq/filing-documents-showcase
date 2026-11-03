@@ -1,13 +1,13 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000166",
+      "identifier": "BC3000279",
       "legalType": "BC"
     },
     "correction": {
-      "correctedFilingId": 3732232,
-      "correctedFilingType": "courtOrder",
-      "correctedFilingDate": "2026-08-13",
+      "correctedFilingId": 3778110,
+      "correctedFilingType": "changeOfOfficers",
+      "correctedFilingDate": "2026-11-03",
       "commentOnly": true,
       "type": "STAFF",
       "comment": "E2E runner comment-only correction"

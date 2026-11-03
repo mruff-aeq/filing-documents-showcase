@@ -1,7 +1,7 @@
 {
   "filing": {
     "business": {
-      "identifier": "CP1044820",
+      "identifier": "CP1044826",
       "legalType": "CP"
     },
     "changeOfDirectors": {
@@ -28,7 +28,7 @@
             "postalCode": "H0H0H0",
             "addressRegion": "BC"
           },
-          "appointmentDate": "2026-08-13",
+          "appointmentDate": "2026-11-03",
           "cessationDate": null,
           "actions": [
             "appointed"
@@ -58,7 +58,7 @@
           },
           "title": "Treasurer",
           "cessationDate": null,
-          "appointmentDate": "2026-08-13",
+          "appointmentDate": "2026-11-03",
           "actions": [
             "appointed"
           ]

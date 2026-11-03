@@ -1,0 +1,155 @@
+{
+  "filing": {
+    "business": {
+      "identifier": "TkqCAJQ0DP",
+      "legalType": "CP"
+    },
+    "amalgamationApplication": {
+      "type": "regular",
+      "nameRequest": {
+        "legalType": "CP",
+        "nrNumber": "NR L011314",
+        "legalName": "E2E 261103140001 AMALGAMATED HOUSING COOPERATIVE"
+      },
+      "amalgamatingBusinesses": [
+        {
+          "role": "amalgamating",
+          "identifier": "CP1044826"
+        },
+        {
+          "role": "amalgamating",
+          "identifier": "CP1044827"
+        }
+      ],
+      "offices": {
+        "registeredOffice": {
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          }
+        }
+      },
+      "parties": [
+        {
+          "officer": {
+            "firstName": "E2E",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Completing Party",
+              "appointmentDate": "2026-11-03"
+            },
+            {
+              "roleType": "Director",
+              "appointmentDate": "2026-11-03"
+            }
+          ]
+        },
+        {
+          "officer": {
+            "firstName": "DIRECTORTWO",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Director",
+              "appointmentDate": "2026-11-03"
+            }
+          ]
+        },
+        {
+          "officer": {
+            "firstName": "DIRECTORTHREE",
+            "lastName": "RUNNER",
+            "partyType": "person",
+            "email": "markruffolocode@gmail.com",
+            "organizationName": ""
+          },
+          "mailingAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "deliveryAddress": {
+            "streetAddress": "123 Test St",
+            "addressCity": "Victoria",
+            "addressCountry": "CA",
+            "postalCode": "V8V 1V1",
+            "addressRegion": "BC"
+          },
+          "roles": [
+            {
+              "roleType": "Director",
+              "appointmentDate": "2026-11-03"
+            }
+          ]
+        }
+      ],
+      "contactPoint": {
+        "email": "mark.ruffolo@gov.bc.ca"
+      },
+      "cooperative": {
+        "cooperativeAssociationType": "HC",
+        "rulesFileKey": "COOP-DS0000103922",
+        "rulesFileName": "rules.pdf",
+        "memorandumFileKey": "COOP-DS0000103923",
+        "memorandumFileName": "memorandum.pdf"
+      },
+      "resolution": "BE IT RESOLVED that the E2E coop suite amalgamates two test cooperatives.",
+      "resolutionDate": "2026-11-03",
+      "signingDate": "2026-11-03",
+      "signatory": {
+        "givenName": "E2E",
+        "additionalName": "",
+        "familyName": "RUNNER"
+      }
+    }
+  }
+}

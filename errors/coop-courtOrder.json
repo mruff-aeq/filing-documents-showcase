@@ -2,16 +2,17 @@
   "filingType": "courtOrder",
   "legalType": "CP",
   "status": 402,
-  "captured": "2026-08-13",
+  "captured": "2026-11-03",
   "response": {
     "errors": [
       {
-        "message": "unable to create invoice for payment."
+        "message": "Invalid Corp Type or Filing Type.",
+        "payment_error_type": "INVALID_CORP_OR_FILING_TYPE"
       }
     ],
     "filing": {
       "business": {
-        "identifier": "CP1044820",
+        "identifier": "CP1044826",
         "legalType": "CP"
       },
       "courtOrder": {
@@ -28,15 +29,16 @@
         "certifiedBy": "E2E API RUNNER",
         "colinIds": [],
         "comments": [],
-        "date": "2026-08-13T11:33:14.712264+00:00",
+        "date": "2026-11-03T17:59:34.982167+00:00",
         "deletionLocked": false,
-        "effectiveDate": "2026-08-13T11:33:14.712291+00:00",
+        "effectiveDate": "2026-11-03T17:59:34.982188+00:00",
         "email": "markruffolocode@gmail.com",
-        "filingId": 3732265,
+        "filingId": 3778096,
         "inColinOnly": false,
         "isCorrected": false,
         "isCorrectionPending": false,
         "name": "courtOrder",
+        "paymentStatusCode": "INVALID_CORP_OR_FILING_TYPE",
         "status": "DRAFT",
         "submitter": "service-account-entity-service-account"
       }

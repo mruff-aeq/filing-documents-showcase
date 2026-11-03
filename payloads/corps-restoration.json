@@ -1,14 +1,14 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000164",
+      "identifier": "BC3000276",
       "legalType": "BC"
     },
     "restoration": {
       "type": "fullRestoration",
       "nameRequest": {
         "legalType": "BC",
-        "legalName": "3000164 B.C. LTD."
+        "legalName": "3000276 B.C. LTD."
       },
       "approvalType": "courtOrder",
       "courtOrder": {
@@ -81,7 +81,7 @@
           "roles": [
             {
               "roleType": "Applicant",
-              "appointmentDate": "2026-08-13"
+              "appointmentDate": "2026-11-03"
             }
           ]
         }

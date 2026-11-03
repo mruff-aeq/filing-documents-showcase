@@ -1,15 +1,15 @@
 {
   "filing": {
     "business": {
-      "identifier": "CP1044820",
+      "identifier": "CP1044826",
       "legalType": "CP"
     },
     "dissolution": {
       "dissolutionType": "voluntary",
       "dissolutionStatementType": "197NoAssetsNoLiabilities",
-      "dissolutionDate": "2026-08-13",
+      "dissolutionDate": "2026-11-03",
       "hasLiabilities": false,
-      "affidavitFileKey": "COOP-DS0000102142",
+      "affidavitFileKey": "COOP-DS0000103917",
       "affidavitFileName": "affidavit.pdf",
       "parties": [
         {
@@ -37,7 +37,7 @@
           "roles": [
             {
               "roleType": "Custodian",
-              "appointmentDate": "2026-08-13"
+              "appointmentDate": "2026-11-03"
             }
           ]
         }
@@ -45,8 +45,8 @@
     },
     "specialResolution": {
       "resolution": "BE IT RESOLVED that the E2E coop suite exercised a special resolution.",
-      "resolutionDate": "2026-08-13",
-      "signingDate": "2026-08-13",
+      "resolutionDate": "2026-11-03",
+      "signingDate": "2026-11-03",
       "signatory": {
         "givenName": "E2E",
         "additionalName": "",

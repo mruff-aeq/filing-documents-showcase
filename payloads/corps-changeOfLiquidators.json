@@ -1,12 +1,12 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000165",
+      "identifier": "BC3000277",
       "legalType": "BC"
     },
     "changeOfLiquidators": {
       "type": "intentToLiquidate",
-      "changeOfLiquidatorsDate": "2026-08-13",
+      "changeOfLiquidatorsDate": "2026-11-03",
       "relationships": [
         {
           "entity": {

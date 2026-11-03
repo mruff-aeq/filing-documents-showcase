@@ -1,11 +1,11 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000163",
+      "identifier": "BC3000274",
       "legalType": "BC"
     },
     "amalgamationOut": {
-      "amalgamationOutDate": "2026-08-13",
+      "amalgamationOutDate": "2026-11-03",
       "details": "A note about amalgamation out",
       "foreignJurisdiction": {
         "country": "CA",
