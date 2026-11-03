@@ -4,8 +4,11 @@ Browse the filing output PDFs: https://mruff-aeq.github.io/filing-documents-show
 
 ## What this is
 
-One example of every filing the e2e API suite can produce in dev (CORPS 26/26, COOP 12/13,
-FIRM 9/10 — the gaps are environment bugs, not suite gaps). The suite is fully self-contained:
+One example of every filing the e2e API suite can produce in dev (CORPS 25/27, COOP 13/14,
+FIRM 9/10 — the gaps are environment gates, not suite gaps: coop courtOrder has no pay fee row,
+firm putBackOn and corps changeOfLiquidators are excluded by LaunchDarkly flags, and corps
+reviewImportedData is receipt-only for COLIN-migrated businesses). Coop amalgamation (regular,
+coops only, lear PR 4880) is covered since 2026-11-03. The suite is fully self-contained:
 it mints its own businesses (numbered corps; coop/firm via Name Requests approved with the
 names_approver role) and auto-discovers aged businesses for the annual reports. Each run
 REPLACES the documents here — this is a showcase of current output, not an archive.
