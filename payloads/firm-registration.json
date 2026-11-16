@@ -1,7 +1,7 @@
 {
   "filing": {
     "business": {
-      "identifier": "TBI0xeWuPg",
+      "identifier": "TozxRHu6Y7",
       "legalType": "SP"
     },
     "registration": {
@@ -10,7 +10,7 @@
           "naicsCode": "919110",
           "naicsDescription": "International and other extra-territorial public administration"
         },
-        "identifier": "TBI0xeWuPg"
+        "identifier": "TozxRHu6Y7"
       },
       "offices": {
         "businessOffice": {
@@ -33,12 +33,12 @@
         }
       },
       "contactPoint": {
-        "email": "mark.ruffolo@gov.bc.ca"
+        "email": "gunasegaran.nagarajan@gov.bc.ca"
       },
-      "startDate": "2026-11-03",
+      "startDate": "2026-11-06",
       "nameRequest": {
-        "nrNumber": "NR L011310",
-        "legalName": "E2E 2611031357 TEST VENTURES",
+        "nrNumber": "NR L011331",
+        "legalName": "E2E 2611061916 TEST VENTURES",
         "legalType": "SP"
       },
       "parties": [
@@ -47,7 +47,7 @@
             "firstName": "E2E",
             "lastName": "RUNNER",
             "middleName": "",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": "",
             "partyType": "person"
           },
@@ -70,11 +70,11 @@
           "roles": [
             {
               "roleType": "Completing Party",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             },
             {
               "roleType": "Proprietor",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         }

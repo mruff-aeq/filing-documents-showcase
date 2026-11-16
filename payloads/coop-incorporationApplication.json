@@ -1,14 +1,14 @@
 {
   "filing": {
     "business": {
-      "identifier": "TTf3Qx2VVc",
+      "identifier": "T8FIqlurXo",
       "legalType": "CP"
     },
     "incorporationApplication": {
       "nameRequest": {
         "legalType": "CP",
-        "nrNumber": "NR L011313",
-        "legalName": "E2E 261103140001 SECOND TEST HOUSING COOPERATIVE"
+        "nrNumber": "NR L011329",
+        "legalName": "E2E 261106191533 SECOND TEST HOUSING COOPERATIVE"
       },
       "offices": {
         "registeredOffice": {
@@ -34,7 +34,7 @@
             "firstName": "E2E",
             "lastName": "RUNNER",
             "partyType": "person",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": ""
           },
           "mailingAddress": {
@@ -54,11 +54,11 @@
           "roles": [
             {
               "roleType": "Completing Party",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             },
             {
               "roleType": "Director",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         },
@@ -67,7 +67,7 @@
             "firstName": "DIRECTORTWO",
             "lastName": "RUNNER",
             "partyType": "person",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": ""
           },
           "mailingAddress": {
@@ -87,7 +87,7 @@
           "roles": [
             {
               "roleType": "Director",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         },
@@ -96,7 +96,7 @@
             "firstName": "DIRECTORTHREE",
             "lastName": "RUNNER",
             "partyType": "person",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": ""
           },
           "mailingAddress": {
@@ -116,19 +116,19 @@
           "roles": [
             {
               "roleType": "Director",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         }
       ],
       "contactPoint": {
-        "email": "mark.ruffolo@gov.bc.ca"
+        "email": "gunasegaran.nagarajan@gov.bc.ca"
       },
       "cooperative": {
         "cooperativeAssociationType": "HC",
-        "rulesFileKey": "COOP-DS0000103918",
+        "rulesFileKey": "COOP-DS0000103971",
         "rulesFileName": "rules.pdf",
-        "memorandumFileKey": "COOP-DS0000103919",
+        "memorandumFileKey": "COOP-DS0000103972",
         "memorandumFileName": "memorandum.pdf"
       }
     }

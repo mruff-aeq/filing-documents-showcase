@@ -1,11 +1,11 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000276",
+      "identifier": "BC3000310",
       "legalType": "BC"
     },
     "dissolution": {
-      "dissolutionDate": "2026-11-03",
+      "dissolutionDate": "2026-11-06",
       "dissolutionType": "voluntary",
       "hasLiabilities": false,
       "parties": [
@@ -29,7 +29,7 @@
           "roles": [
             {
               "roleType": "Custodian",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ],
           "deliveryAddress": {

@@ -2,7 +2,7 @@
   "filingType": "courtOrder",
   "legalType": "CP",
   "status": 402,
-  "captured": "2026-11-03",
+  "captured": "2026-11-06",
   "response": {
     "errors": [
       {
@@ -12,7 +12,7 @@
     ],
     "filing": {
       "business": {
-        "identifier": "CP1044826",
+        "identifier": "CP1044832",
         "legalType": "CP"
       },
       "courtOrder": {
@@ -29,11 +29,11 @@
         "certifiedBy": "E2E API RUNNER",
         "colinIds": [],
         "comments": [],
-        "date": "2026-11-03T17:59:34.982167+00:00",
+        "date": "2026-11-06T23:14:49.667333+00:00",
         "deletionLocked": false,
-        "effectiveDate": "2026-11-03T17:59:34.982188+00:00",
-        "email": "markruffolocode@gmail.com",
-        "filingId": 3778096,
+        "effectiveDate": "2026-11-06T23:14:49.667355+00:00",
+        "email": "gunasegaran.nagarajan@gov.bc.ca",
+        "filingId": 3779110,
         "inColinOnly": false,
         "isCorrected": false,
         "isCorrectionPending": false,

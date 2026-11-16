@@ -1,19 +1,19 @@
 {
   "filing": {
     "business": {
-      "identifier": "FM1169836",
+      "identifier": "FM1169838",
       "legalType": "SP"
     },
     "dissolution": {
       "dissolutionType": "voluntary",
-      "dissolutionDate": "2026-11-03",
+      "dissolutionDate": "2026-11-06",
       "parties": [
         {
           "officer": {
             "firstName": "E2E",
             "lastName": "RUNNER",
             "middleName": "",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": "",
             "partyType": "person"
           },
@@ -36,7 +36,7 @@
           "roles": [
             {
               "roleType": "Completing Party",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         }

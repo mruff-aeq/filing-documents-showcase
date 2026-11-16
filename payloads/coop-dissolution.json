@@ -1,15 +1,15 @@
 {
   "filing": {
     "business": {
-      "identifier": "CP1044826",
+      "identifier": "CP1044832",
       "legalType": "CP"
     },
     "dissolution": {
       "dissolutionType": "voluntary",
       "dissolutionStatementType": "197NoAssetsNoLiabilities",
-      "dissolutionDate": "2026-11-03",
+      "dissolutionDate": "2026-11-06",
       "hasLiabilities": false,
-      "affidavitFileKey": "COOP-DS0000103917",
+      "affidavitFileKey": "COOP-DS0000103970",
       "affidavitFileName": "affidavit.pdf",
       "parties": [
         {
@@ -17,7 +17,7 @@
             "firstName": "E2E",
             "lastName": "RUNNER",
             "partyType": "person",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": ""
           },
           "mailingAddress": {
@@ -37,7 +37,7 @@
           "roles": [
             {
               "roleType": "Custodian",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         }
@@ -45,8 +45,8 @@
     },
     "specialResolution": {
       "resolution": "BE IT RESOLVED that the E2E coop suite exercised a special resolution.",
-      "resolutionDate": "2026-11-03",
-      "signingDate": "2026-11-03",
+      "resolutionDate": "2026-11-06",
+      "signingDate": "2026-11-06",
       "signatory": {
         "givenName": "E2E",
         "additionalName": "",

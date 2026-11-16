@@ -1,7 +1,7 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC0789196",
+      "identifier": "BC1265265",
       "legalType": "BC"
     },
     "annualReport": {
@@ -115,8 +115,8 @@
           }
         }
       },
-      "annualReportDate": "2026-04-24",
-      "annualGeneralMeetingDate": "2026-04-24"
+      "annualReportDate": "2025-09-11",
+      "annualGeneralMeetingDate": "2025-09-11"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "filing": {
     "business": {
-      "identifier": "CP1044826",
+      "identifier": "CP1044832",
       "legalType": "CP"
     },
     "specialResolution": {
       "resolution": "BE IT RESOLVED that the E2E coop suite exercised a special resolution.",
-      "resolutionDate": "2026-11-03",
-      "signingDate": "2026-11-03",
+      "resolutionDate": "2026-11-06",
+      "signingDate": "2026-11-06",
       "signatory": {
         "givenName": "E2E",
         "additionalName": "",
@@ -16,16 +16,16 @@
     },
     "alteration": {
       "business": {
-        "identifier": "CP1044826",
+        "identifier": "CP1044832",
         "legalType": "CP"
       },
       "contactPoint": {
-        "email": "mark.ruffolo@gov.bc.ca"
+        "email": "gunasegaran.nagarajan@gov.bc.ca"
       },
       "cooperativeAssociationType": "HC",
-      "rulesFileKey": "COOP-DS0000103915",
+      "rulesFileKey": "COOP-DS0000103968",
       "rulesFileName": "rules_v2.pdf",
-      "memorandumFileKey": "COOP-DS0000103916",
+      "memorandumFileKey": "COOP-DS0000103969",
       "memorandumFileName": "memorandum.pdf"
     }
   }

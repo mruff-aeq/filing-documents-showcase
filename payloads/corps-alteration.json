@@ -1,7 +1,7 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000280",
+      "identifier": "BC3000314",
       "legalType": "BC"
     },
     "alteration": {
@@ -9,7 +9,7 @@
       "shareStructure": {
         "resolutionDates": [
           {
-            "date": "2026-11-03"
+            "date": "2026-11-06"
           }
         ],
         "shareClasses": [
@@ -38,7 +38,7 @@
         "email": "no_one@never.get"
       },
       "business": {
-        "identifier": "BC3000280",
+        "identifier": "BC3000314",
         "legalType": "BC"
       }
     }

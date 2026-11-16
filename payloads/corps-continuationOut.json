@@ -1,11 +1,11 @@
 {
   "filing": {
     "business": {
-      "identifier": "BC3000275",
+      "identifier": "BC3000308",
       "legalType": "BC"
     },
     "continuationOut": {
-      "continuationOutDate": "2026-11-03",
+      "continuationOutDate": "2026-11-06",
       "foreignJurisdiction": {
         "country": "CA",
         "region": "AB"

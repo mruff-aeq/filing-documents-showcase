@@ -9,16 +9,16 @@
       "amalgamatingBusinesses": [
         {
           "role": "primary",
-          "identifier": "BC3000287"
+          "identifier": "BC3000321"
         },
         {
           "role": "amalgamating",
-          "identifier": "BC3000284"
+          "identifier": "BC3000318"
         }
       ],
       "nameRequest": {
         "legalType": "BC",
-        "legalName": "3000285 B.C. LTD."
+        "legalName": "3000319 B.C. LTD."
       },
       "offices": {
         "recordsOffice": {
@@ -72,7 +72,7 @@
             "firstName": "E2E",
             "lastName": "RUNNER",
             "partyType": "person",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": ""
           },
           "mailingAddress": {
@@ -85,7 +85,7 @@
           "roles": [
             {
               "roleType": "Completing Party",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         },

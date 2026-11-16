@@ -1,7 +1,7 @@
 {
   "filing": {
     "business": {
-      "identifier": "FM1169836",
+      "identifier": "FM1169838",
       "legalType": "SP"
     },
     "changeOfRegistration": {
@@ -10,7 +10,7 @@
           "naicsCode": "919110",
           "naicsDescription": "International and other extra-territorial public administration"
         },
-        "identifier": "FM1169836"
+        "identifier": "FM1169838"
       },
       "offices": {
         "businessOffice": {
@@ -33,7 +33,7 @@
         }
       },
       "contactPoint": {
-        "email": "mark.ruffolo@gov.bc.ca"
+        "email": "gunasegaran.nagarajan@gov.bc.ca"
       },
       "parties": [
         {
@@ -41,7 +41,7 @@
             "firstName": "E2E",
             "lastName": "RUNNER",
             "middleName": "",
-            "email": "markruffolocode@gmail.com",
+            "email": "gunasegaran.nagarajan@gov.bc.ca",
             "organizationName": "",
             "partyType": "person"
           },
@@ -64,11 +64,11 @@
           "roles": [
             {
               "roleType": "Completing Party",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             },
             {
               "roleType": "Proprietor",
-              "appointmentDate": "2026-11-03"
+              "appointmentDate": "2026-11-06"
             }
           ]
         }
