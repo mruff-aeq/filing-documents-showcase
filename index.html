@@ -143,6 +143,11 @@
                        border-color: var(--role-general); }
   .pill.ui { background: var(--ui-wash); color: var(--ui); border-color: var(--ui);
              font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .pill.fw { background: var(--chip); color: var(--muted); border-color: var(--line);
+             font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; }
+  .pill.fw-nuxt { color: #6cc793; border-color: #6cc793; background: var(--ok-wash); }
+  .pill.fw-vue2 { color: #d9b45a; border-color: #d9b45a; background: var(--warn-wash); }
+  .row.ui .arrow { color: var(--muted); font-size: 11px; align-self: center; }
   .detail .rolerow { display: flex; gap: 6px; margin: 0 0 14px; }
   /* detail view */
   .detail { display: none; }
@@ -224,9 +229,29 @@ const rolePills = c => (c.roles || []).filter(r => ROLE_BADGES[r]).sort().revers
   .join('');
 const roleRow = c => { const p = rolePills(c);
   return p ? `<hr class="rolesep"><div class="row roles">${p}</div>` : ''; };
-const uiRow = c => c.ui
-  ? `<hr class="rolesep"><div class="row ui"><span class="pill ui tip" data-tip="${esc(c.ui.tip)}">${esc(c.ui.name)}</span></div>`
+// Every UI filing starts in business-dashboard-ui (Nuxt) and hands off to the filing UI.
+// Legacy filing UIs (create / edit / filings) are Vue 2; business-ui layers are Nuxt.
+const DASH_UI = 'business-dashboard-ui';
+const FRAMEWORK = {
+  nuxt: ['nuxt', 'Nuxt app (business-dashboard-ui / business-ui layers).'],
+  vue2: ['vue2', 'Vue 2 app (legacy create / edit / filings UIs, bcrs-shared-components).'],
+};
+const uiFramework = name => name === 'API only' ? null
+  : (name === DASH_UI || name.startsWith('business-ui/')) ? 'nuxt' : 'vue2';
+const fwPill = fw => fw
+  ? `<span class="pill fw fw-${fw} tip" data-tip="${esc(FRAMEWORK[fw][1])}">${esc(FRAMEWORK[fw][0])}</span>`
   : '';
+const uiRow = c => {
+  if (!c.ui) return '';
+  const fw = uiFramework(c.ui.name);
+  const dash = fw && c.ui.name !== DASH_UI
+    ? `<span class="pill ui tip" data-tip="Launched from the business dashboard (Nuxt).">${DASH_UI}</span>`
+      + `<span class="arrow">&rarr;</span>`
+    : '';
+  return `<hr class="rolesep"><div class="row ui">${dash}`
+       + `<span class="pill ui tip" data-tip="${esc(c.ui.tip)}">${esc(c.ui.name)}</span>`
+       + `${fwPill(fw)}</div>`;
+};
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g,
   c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
